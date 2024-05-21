@@ -11057,7 +11057,7 @@ ul.tl-footer-links.tl-4-footer-links.tl-11-footer-link a:hover {
   text-align: center;
 }
 .tl-2-cta.bg-defaults {
-  background-image: url(../images/tl-2/cta-bg.jpg);
+  background-image: url(../images/tl-2/apply-online-bg.jpg);
 }
 .tl-2-cta::before {
   content: "";
@@ -11614,7 +11614,7 @@ ul.tl-footer-links.tl-4-footer-links.tl-11-footer-link a:hover {
 }
 
 .tl-3-single-event {
-  padding: 45px;
+  padding: 10px;
   border: 1px solid rgba(23, 22, 28, 0.14);
   border-radius: 20px;
   display: flex;
@@ -11772,27 +11772,26 @@ ul.tl-footer-links.tl-4-footer-links.tl-11-footer-link a:hover {
   transition: 0.4s ease;
 }
 .tl-3-single-event-title {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 20px;
   margin-bottom: 0;
   font-weight: 600;
   color: var(--black);
 }
 @media screen and (max-width: 991px) {
   .tl-3-single-event-title {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
   }
 }
 @media screen and (max-width: 575px) {
   .tl-3-single-event-title {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
 }
 @media screen and (max-width: 479px) {
   .tl-3-single-event-title {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
   }
 }
@@ -20320,7 +20319,7 @@ section.tl-4-membership.tl-11-section-spacing .container {
 .tl-12-blogs {
   background: center center no-repeat;
   background-size: cover;
-  background-color: rgb(225, 238, 218);
+  background-color: #F2F4F9;
 }
 .tl-12-blogs-txt {
   display: flex;
@@ -21313,16 +21312,19 @@ ul.tl-footer-links.tl-4-footer-links.tl-12-footer-links li a:hover {
 .tl-13-about-features {
   background-color: var(--black);
   position: relative;
-  margin-top: 100px;
+ /* margin-top: 100px; */
+ margin-bottom:50px;
 }
 @media screen and (max-width: 1399px) {
   .tl-13-about-features {
-    margin-top: 80px;
+    /*margin-top: 80px; */
+    margin-bottom:50px;
   }
 }
 @media screen and (max-width: 1199px) {
   .tl-13-about-features {
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin-bottom:50px;
   }
 }
 .tl-13-about-features::before {
@@ -21380,6 +21382,8 @@ ul.tl-footer-links.tl-4-footer-links.tl-12-footer-links li a:hover {
   padding-left: 72px;
   margin-left: 42px;
   position: relative;
+  max-width:80%;
+  height:250px;
 }
 .tl-13-about-feature::before {
   content: "";
@@ -26341,4 +26345,15 @@ table.governing-table a{
   margin-left:10px;
   margin-top:0px;
   margin-bottom:0px;
+ }
+ .collaborations-icons{
+  /*width:50px;
+  height:50px;
+  border:1px solid #000;
+  border-radius:50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px; */
+  font-size:50px;
  }

@@ -11,7 +11,7 @@ const AboutSection9 = () => {
 
             {/*  <span className="bottom-img">
                 <img src="assets/images/tl-10/aboutus-image2.jpg" alt="students" />
-  </span>  */}
+  </span>  
 
               <div className="tl-10-users">
                 <div className="tl-10-users-img">
@@ -27,7 +27,7 @@ const AboutSection9 = () => {
                 <h6 className="tl-10-users-txt">
                   More Than <br /> 2k+ Tutors
                 </h6>
-              </div>
+              </div>  */}
             </div>
           </div>
 

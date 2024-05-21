@@ -33,25 +33,25 @@ const BannerSection9 = () => {
             <div className="row g-0 align-items-end">
                 <div className="col-md-3 col-6 col-xxs-12">
                     <div className="tl-banner-single-card">
-                        <h5 className="single-card-title">Board Agendas</h5>
+                        <h5 className="single-card-title">Admission Enquiry 2024-2025</h5>
                         <a href="#" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div className="col-md-3 col-6 col-xxs-12">
                     <div className="tl-banner-single-card tl-banner-single-card-2">
-                        <h5 className="single-card-title">Admission & Records</h5>
+                        <h5 className="single-card-title">For Admission </h5>
                         <a href="#" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div className="col-md-3 col-6 col-xxs-12">
                     <div className="tl-banner-single-card tl-banner-single-card-3">
-                        <h5 className="single-card-title">Register For Classes</h5>
+                        <h5 className="single-card-title">Download Catalogue </h5>
                         <a href="#" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div className="col-md-3 col-6 col-xxs-12">
                     <div className="tl-banner-single-card tl-banner-single-card-4">
-                        <h5 className="single-card-title">Career Interviews</h5>
+                        <h5 className="single-card-title">More About SGU</h5>
                         <a href="#" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
