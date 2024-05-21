@@ -45,13 +45,13 @@ const SguVideo = () => {
                 <iframe width="600" height="500" src="https://www.youtube.com/embed/v4G_a-R0Q48" title="The Blueprint of Success  Mr. Sanjay Ghodawat   TEDxWCE Sangli"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                 </Tab.Pane>
                 <Tab.Pane eventKey="tl-7-cat-2-tab">
-                  <img src="assets/images/tl-7/cate-2.jpg" alt="Dance image" />
+                <iframe width="600" height="500" src="https://www.youtube.com/embed/wKRok_xGZEg" title="SGUniversity Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                 </Tab.Pane>
                 <Tab.Pane eventKey="tl-7-cat-3-tab">
-                  <img src="assets/images/tl-7/cate-3.jpg" alt="Dance Image" />
+                <iframe width="600" height="500" src="https://www.youtube.com/embed/ZjfLA2zSnBc" title="Invitation for 5th Convocation Ceremony" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                 </Tab.Pane>
                 <Tab.Pane eventKey="tl-7-cat-4-tab">
-                  <img src="assets/images/tl-7/cate-4.jpg" alt="Dance Image" />
+                <iframe width="600" height="500" src="https://www.youtube.com/embed/yGhURLZxdFs" title="Chairman Sanjay Ghodawat Birthday Massage for Student"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
