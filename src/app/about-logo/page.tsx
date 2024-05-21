@@ -1,4 +1,4 @@
-import AboutLogo from '@/component/about/AboutLogo'
+import AboutLogo from '@/component/about/AboutSGULogo/AboutLogo'
 import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 import CtaSection4 from '@/component/cta/CtaSection4'
 import Layout5 from '@/component/layout/Layout5'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const AboutLogoPage = () => {
   return (
     <Layout5>
-        <BreadcrumbSection title='About Logo' style=''/>
+        <BreadcrumbSection title='About Us' style=''/>
         <AboutLogo/>
        {/* <PricingSection/>
         <CtaSection4 style='tl-8-cta-inner'/> */}

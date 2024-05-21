@@ -3,6 +3,7 @@ import NavLink from "./NavLink";
 interface DropdownState {
   home: boolean;
   leadership: boolean,
+  statutoryboard : boolean,
   courses: boolean;
   page: boolean;
   blog: boolean;
@@ -18,6 +19,7 @@ const MobileNavSection = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState<DropdownState>({
     home: false,
     leadership: false,
+    statutoryboard:false,
     courses: false,
     blog: false,
     page: false,
@@ -107,6 +109,56 @@ const MobileNavSection = () => {
                 </li>
                 <li>
                     <NavLink href="/officers-of-university">Officers of University</NavLink>
+                </li>
+              </ul>
+              </li>
+
+              <li  className="tl-nav-item tl-dropdown">
+            <a className={isDropdownOpen.statutoryboard ? "dropdown-open" : ""}>
+            Statutory Boards{" "}
+            <span
+              className={`inner-mean-expand ${
+                isDropdownOpen.statutoryboard ? "active" : ""
+              }`}
+              role="button"
+              onClick={() => handleDropdownToggle("statutoryboard")}
+            >
+              {isDropdownOpen.statutoryboard ? "-" : "+"}
+            </span>
+          </a>
+
+               <ul className={`tl-submenu ${
+              isDropdownOpen.statutoryboard ? "d-block" : "d-none"
+            }`}>
+               <li>
+                    <NavLink href="/governing-body">Governing Body</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/board-of-management">Board of Management</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/board-of-national">Board of National & International Linkages</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/board-of-university">Board of University Teaching and Research</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/board-of-research">Board of Research</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/academic-council">Academic Council</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/board-of-examination">Board of Examination</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/board-of-student">Board of Student Development</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/planning-and-monitoring">Planning & Monitoring Board</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/sports-physical-culture">University Board of Sports and Physical Culture</NavLink>
                 </li>
               </ul>
               </li>

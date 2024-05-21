@@ -1,4 +1,4 @@
-import BoardOfNational from '@/component/about/BoardOfNational'
+import BoardOfNational from '@/component/about/StatutoryBoards/BoardOfNational'
 import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 import CtaSection4 from '@/component/cta/CtaSection4'
 import Layout5 from '@/component/layout/Layout5'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const BoardOfNationalPage = () => {
   return (
     <Layout5>
-        <BreadcrumbSection title='Board of National & International Linkages' style=''/>
+        <BreadcrumbSection title='Statutory Boards' style=''/>
         <BoardOfNational/>
        {/* <PricingSection/>
         <CtaSection4 style='tl-8-cta-inner'/> */}

@@ -1,4 +1,4 @@
-import AboutUniversity from '@/component/about/AboutUniversity'
+import AboutUniversity from '@/component/about/AboutUniversity/AboutUniversity'
 import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 import CtaSection4 from '@/component/cta/CtaSection4'
 import Layout5 from '@/component/layout/Layout5'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const AboutUniversityPage = () => {
   return (
     <Layout5>
-        <BreadcrumbSection title='About University' style=''/>
+        <BreadcrumbSection title='About Us' style=''/>
         <AboutUniversity/>
        {/* <PricingSection/>
         <CtaSection4 style='tl-8-cta-inner'/> */}

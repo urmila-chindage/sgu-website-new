@@ -1,4 +1,4 @@
-import President from '@/component/about/President'
+import President from '@/component/about/Leadership/President'
 import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 import CtaSection4 from '@/component/cta/CtaSection4'
 import Layout5 from '@/component/layout/Layout5'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const PresidentPage = () => {
   return (
     <Layout5>
-        <BreadcrumbSection title='About Us' style=''/>
+        <BreadcrumbSection title='Leadership' style=''/>
         <President/>
        {/* <PricingSection/>
         <CtaSection4 style='tl-8-cta-inner'/> */}

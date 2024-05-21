@@ -1,4 +1,4 @@
-import GoverningBody from '@/component/about/GoverningBody'
+import GoverningBody from '@/component/about/StatutoryBoards/GoverningBody'
 import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 import CtaSection4 from '@/component/cta/CtaSection4'
 import Layout5 from '@/component/layout/Layout5'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const GovernoingBodyPage = () => {
   return (
     <Layout5>
-        <BreadcrumbSection title='Governing Body' style=''/>
+        <BreadcrumbSection title='Statutory Boards' style=''/>
         <GoverningBody/>
        {/* <PricingSection/>
         <CtaSection4 style='tl-8-cta-inner'/> */}

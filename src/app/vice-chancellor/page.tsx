@@ -1,4 +1,4 @@
-import Vicechancellor from '@/component/about/Vicechancellor'
+import Vicechancellor from '@/component/about/Leadership/Vicechancellor'
 import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 import CtaSection4 from '@/component/cta/CtaSection4'
 import Layout5 from '@/component/layout/Layout5'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const ViceChancellorPage = () => {
   return (
     <Layout5>
-        <BreadcrumbSection title='Message' style=''/>
+        <BreadcrumbSection title='Leadership' style=''/>
         <Vicechancellor/>
        {/* <PricingSection/>
         <CtaSection4 style='tl-8-cta-inner'/> */}

@@ -1,4 +1,4 @@
-import Trustee from '@/component/about/Trustee'
+import Trustee from '@/component/about/Leadership/Trustee'
 import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 import CtaSection4 from '@/component/cta/CtaSection4'
 import Layout5 from '@/component/layout/Layout5'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const TrusteePage = () => {
   return (
     <Layout5>
-        <BreadcrumbSection title='Message' style=''/>
+        <BreadcrumbSection title='Leadership' style=''/>
         <Trustee/>
        {/* <PricingSection/>
         <CtaSection4 style='tl-8-cta-inner'/> */}

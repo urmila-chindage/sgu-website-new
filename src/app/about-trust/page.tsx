@@ -1,4 +1,4 @@
-import AboutTrust from '@/component/about/AboutTrust'
+import AboutTrust from '@/component/about/Leadership/AboutTrust'
 import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 import CtaSection4 from '@/component/cta/CtaSection4'
 import Layout5 from '@/component/layout/Layout5'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const AboutTrustPage = () => {
   return (
     <Layout5>
-        <BreadcrumbSection title='About Trust' style=''/>
+        <BreadcrumbSection title='Leadership' style=''/>
         <AboutTrust/>
        {/* <PricingSection/>
         <CtaSection4 style='tl-8-cta-inner'/> */}

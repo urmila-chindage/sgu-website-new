@@ -94,6 +94,30 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
                
               </ul>
             </li>
+
+            <li className="tl-dropdown-2">
+                <a>
+                Committee <i className="fa-regular fa-angle-right"></i>
+                </a>
+
+               <ul className="tl-submenu tl-submenu-2">
+               <li>
+                    <NavLink href="/internal-complaint">Internal Complaint</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/grievance-cell">Grievance Readressal Cell</NavLink>
+                </li>
+               {/*  <li>
+                    <NavLink href="/central-purchase">Central Purchase</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/womens-committee">Womens Empowerment Centre Committee</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/anti-ragging">Anti Ragging Committee</NavLink>
+  </li>  */}
+             </ul>
+            </li>
      
           {/*  <li>
                 <NavLink href="/home-2">Kindergarten</NavLink>
