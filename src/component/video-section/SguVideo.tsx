@@ -42,7 +42,7 @@ const SguVideo = () => {
               </Nav>
               <Tab.Content className="tab-content" id="myTabContent">
                 <Tab.Pane eventKey="tl-7-cat-1-tab">
-                  <img src="assets/images/tl-7/cate-1.jpg" alt="Dance image" />
+                <iframe width="600" height="500" src="https://www.youtube.com/embed/v4G_a-R0Q48" title="The Blueprint of Success  Mr. Sanjay Ghodawat   TEDxWCE Sangli"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                 </Tab.Pane>
                 <Tab.Pane eventKey="tl-7-cat-2-tab">
                   <img src="assets/images/tl-7/cate-2.jpg" alt="Dance image" />

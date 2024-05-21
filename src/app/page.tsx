@@ -42,9 +42,9 @@ const Home10 = () => {
         <CampusSection2 />
         <TestimonialSection2 />
         <Recruiters/>
-        {/*<SguVideo/>
+        <SguVideo/>
        
-        <PricingSection3 />
+       {/* <PricingSection3 />
         <CourseSection2 />
         <BlogSection6 />  */}
         <FooterSection7 style='' logo='assets/images/logos/sgulogo.jpg' descStyle='tl-footer-descr' socialStyle='tl-footer-socials'/>

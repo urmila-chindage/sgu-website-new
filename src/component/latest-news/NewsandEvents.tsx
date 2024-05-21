@@ -52,7 +52,7 @@ const NewsandEvents = () => {
                          <div className="tl-12-blogs-slide" key={item.id}>
                             <div className="tl-3-single-blog tl-12-blog">
                                 <div className="tl-3-single-blog-img">
-                                    <img src={item.imgSrc} alt="Blog Image"/>
+                                    <div className="news-image"></div>
                                     <span className="tl-3-single-blog-tag">{item.category}</span>
                                 </div>
 
