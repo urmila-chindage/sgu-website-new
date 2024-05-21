@@ -58,7 +58,7 @@ const FooterSection3:React.FC<FooterProps> = ({style,logo}) => {
                     <div className="col-lg-3 col-sm-6 col-12 order-2 order-sm-1 order-lg-2">
                         <div className="tl-footer-widget tl-3-footer-widget">
                             <h5 className="tl-footer-widget-title">Newsletter</h5>
-                            <p className="tl-3-nwsltr-txt">Register now to get latest updates on promotions & coupons.</p>
+                            <p className="tl-3-nwsltr-txt">Register now to get latest updates.</p>
                             <form action="#" className="tl-3-nwsltr-form">
                                 <input type="email" name="nwsltr-mail" id="tl-3-nwsltr-mail" className="tl-3-nwsltr-mail-input" placeholder="Enter Your Email"/>
                                 <button className="tl-3-def-btn" id="tl-3-nwsltr-btn">Get Newsletter</button>

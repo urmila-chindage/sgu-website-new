@@ -188,11 +188,11 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
         </ul> 
         </li>
 
-        <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
+       {/*  <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
             <a role="button">
             Pages <i className="fa-regular fa-angle-down"></i>
             </a>
-           <ul className="tl-submenu">
+          <ul className="tl-submenu">
           <li className="tl-dropdown-2">
                 <a>
                 About <i className="fa-regular fa-angle-right"></i>
@@ -225,7 +225,7 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
                 </li>
                 <li>
                     <NavLink href="/about-8">About Eight</NavLink>
-    </li>  */}
+    </li>  
     </ul>  
             </li>
 
@@ -259,9 +259,9 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
                 </li>
                 <li>
                     <NavLink href="staff-6">Staff Six</NavLink>
-                </li>   */}
+                </li> 
             </ul>  
-            </li>
+            </li>   */}
 
             {/*
             <li>
@@ -300,9 +300,9 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
                 <NavLink href="/register">Register</NavLink>
                 </li>
                 </ul>
-            </li>*/}
+            </li>
     </ul>   
-        </li>
+        </li> */}
 
         <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
             <a role="button">

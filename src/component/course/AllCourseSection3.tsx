@@ -17,10 +17,10 @@ const AllCourseSection3 = () => {
                         </div>
 
                         <div className="tl-8-course-txt">
-                            <div className="tl-8-course-info">
+                          {/*  <div className="tl-8-course-info">
                                 <span className="tl-8-course-price">{item.price}</span>
                                 <span className="tl-8-course-level"><i className="fa-sharp fa-solid fa-signal-bars-good"></i> Intermediate</span>
-                            </div>
+                </div>  */}
 
                             <h3 className="tl-8-course-title"><Link href={`/course/${item.slug}`}>{item.title}</Link></h3>
                             <p className="tl-8-course-descr">{item.desc}</p>
