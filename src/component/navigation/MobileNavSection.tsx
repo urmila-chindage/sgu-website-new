@@ -4,6 +4,8 @@ interface DropdownState {
   home: boolean;
   leadership: boolean,
   statutoryboard : boolean,
+  committee : boolean,
+  infrastructure : boolean,
   courses: boolean;
   page: boolean;
   blog: boolean;
@@ -20,6 +22,8 @@ const MobileNavSection = () => {
     home: false,
     leadership: false,
     statutoryboard:false,
+    committee : false,
+    infrastructure : false,
     courses: false,
     blog: false,
     page: false,
@@ -162,6 +166,71 @@ const MobileNavSection = () => {
                 </li>
               </ul>
               </li>
+
+              <li  className="tl-nav-item tl-dropdown">
+            <a className={isDropdownOpen.committee ? "dropdown-open" : ""}>
+            Committee{" "}
+            <span
+              className={`inner-mean-expand ${
+                isDropdownOpen.committee ? "active" : ""
+              }`}
+              role="button"
+              onClick={() => handleDropdownToggle("committee")}
+            >
+              {isDropdownOpen.committee ? "-" : "+"}
+            </span>
+          </a>
+
+               <ul className={`tl-submenu ${
+              isDropdownOpen.committee ? "d-block" : "d-none"
+            }`}>
+               <li>
+                    <NavLink href="/internal-complaint">Internal Complaint</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/grievance-cell">Grievance Readressal Cell</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/central-purchase">Central Purchase</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/womens-committee">Womens Empowerment Centre Committee</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/anti-ragging">Anti Ragging Committee</NavLink>
+                </li>
+               
+              </ul>
+              </li>
+
+              <li  className="tl-nav-item tl-dropdown">
+            <a className={isDropdownOpen.infrastructure ? "dropdown-open" : ""}>
+            Infrastructure{" "}
+            <span
+              className={`inner-mean-expand ${
+                isDropdownOpen.infrastructure ? "active" : ""
+              }`}
+              role="button"
+              onClick={() => handleDropdownToggle("infrastructure")}
+            >
+              {isDropdownOpen.infrastructure ? "-" : "+"}
+            </span>
+          </a>
+
+               <ul className={`tl-submenu ${
+              isDropdownOpen.infrastructure ? "d-block" : "d-none"
+            }`}>
+               <li>
+                    <NavLink href="/about-campus">About Campus</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/campus-images">Campus Images</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/facilities">Facilities</NavLink>
+                </li>
+              </ul>
+            </li>
           {/*  <li>
               <NavLink href="/home-4">College</NavLink>
             </li>

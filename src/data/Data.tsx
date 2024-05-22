@@ -2640,6 +2640,58 @@ const articlesData = [
   },
 ];
 
+const schoolsList = [
+  {
+    id:0,
+    schoolsdept :"School of  Design",
+    schoolsubdept : "UG" ,
+    desc : "Bachelor of  Design"
+  },
+  {
+    id:1,
+    schoolsdept :"School of Commerce & Management",
+    schoolsubdept : "UG, PG, Ph.D." ,
+    desc : "UG, PG, Ph.D. Programmes in Management."
+  },
+  {
+    id:2,
+    schoolsdept :"School of Science",
+    schoolsubdept : "UG, PG, Ph.D." ,
+    desc : "B.Sc., M.Sc., Ph.D. in Physics, Chemistry, Mathematics"
+  },
+  {
+    id:3,
+    schoolsdept :"School of Liberal Art",
+    schoolsubdept : "UG, PG, Ph.D." ,
+    desc : "BA, Ph.D. in English, Journalism & Mass Communication"
+  },
+  {
+    id:4,
+    schoolsdept :"School of Pharmaceutical Sciences",
+    schoolsubdept : "Diploma, UG" ,
+    desc : "D.Pharmacy, B.Pharmacy"
+  },
+  {
+    id:5,
+    schoolsdept :"School of Computer Science & Applications",
+    schoolsubdept : "UG, PG" ,
+    desc : "B.C.A., M.C.A."
+  },
+  {
+    id:6,
+    schoolsdept :"School of Legal Studies (Law)",
+    schoolsubdept : "UG" ,
+    desc : "B.A.L.L.B(Hons.),B.B.A.L.L.B (Hons.),L.L.B"
+  },
+  {
+    id:6,
+    schoolsdept :"School of Allied Health Sciences",
+    schoolsubdept : "UG" ,
+    desc : "B sc Food Science and Technology, B sc in Medical Laboratory Technology "
+  }
+  
+]
+
 export {
   memberList,
   courseList,
@@ -2658,5 +2710,6 @@ export {
   faqList,
   socialMediaData,
   categoriesData,
-  articlesData
+  articlesData,
+  schoolsList
 };

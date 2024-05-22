@@ -2673,7 +2673,7 @@ button.tl-1-teachers-slider-dots.active {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 @media screen and (max-width: 1399px) {
   .tl-7-section-title {
@@ -7353,7 +7353,7 @@ li.tl-nav-item.tl-9-nav-item.tl-dropdown > a:hover {
   box-shadow: 0 10px 60px rgba(23, 22, 28, 0.1);
   position: relative;
   z-index: 2;
-  margin-top: -100px;
+  margin: 50px;
 }
 .tl-7-about-heading {
   width: 100%;
@@ -7509,7 +7509,8 @@ li.tl-nav-item.tl-9-nav-item.tl-dropdown > a:hover {
   }
 }
 .tl-7-about-timing:not(:last-child) {
-  margin-bottom: 6px;
+  /* Make change */
+  margin-bottom: 10px;  
 }
 .tl-7-about-timing i {
   margin-right: 10px;
@@ -11218,33 +11219,34 @@ ul.tl-footer-links.tl-4-footer-links.tl-11-footer-link a:hover {
 }
 .tl-7-cta-title {
   margin-bottom: 0;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   color: var(--white);
+  text-align:center;
 }
 @media screen and (max-width: 1199px) {
   .tl-7-cta-title {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 991px) {
   .tl-7-cta-title {
-    font-size: 32px;
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 767px) {
   .tl-7-cta-title {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 575px) {
   .tl-7-cta-title {
-    font-size: 28px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 479px) {
   .tl-7-cta-title {
-    font-size: 25px;
+    font-size: 15px;
   }
 }
 .tl-7-cta-descr {
@@ -11621,6 +11623,7 @@ ul.tl-footer-links.tl-4-footer-links.tl-11-footer-link a:hover {
   gap: 30px;
   align-items: center;
   transition: 0.4s ease;
+  height:200px;
 }
 @media screen and (max-width: 1399px) {
   .tl-3-single-event {
@@ -12264,37 +12267,38 @@ ul.tl-footer-links.tl-4-footer-links.tl-11-footer-link a:hover {
   margin-bottom: 10px;
 }
 .tl-4-innovs-heading-txt {
-  text-align: center;
-  margin: auto;
-  width: 35%;
-  margin-bottom: 63px;
-  line-height: 26px;
-  color: rgba(23, 22, 28, 0.7);
+  text-align: left;
+    margin: auto;
+    margin: 20px 0px;
+    line-height: 26px;
+    color: rgba(23, 22, 28, 0.7);
+    font-weight: 600;
+    font-size: 20px;
 }
 @media screen and (max-width: 1399px) {
   .tl-4-innovs-heading-txt {
-    margin-bottom: 53px;
+    margin: 20px 0px;
   }
 }
 @media screen and (max-width: 1199px) {
   .tl-4-innovs-heading-txt {
-    margin-bottom: 43px;
-    width: 45%;
+    margin: 20px 0px;
+    
   }
 }
 @media screen and (max-width: 991px) {
   .tl-4-innovs-heading-txt {
-    width: 65%;
-    margin-bottom: 33px;
+   
+    margin: 20px 0px;
   }
 }
 @media screen and (max-width: 767px) {
   .tl-4-innovs-heading-txt {
-    width: 75%;
-    margin-bottom: 28px;
+   
+    margin: 20px 0px;
   }
 }
-@media screen and (max-width: 575px) {
+/*@media screen and (max-width: 575px) {
   .tl-4-innovs-heading-txt {
     width: 85%;
   }
@@ -12303,7 +12307,7 @@ ul.tl-footer-links.tl-4-footer-links.tl-11-footer-link a:hover {
   .tl-4-innovs-heading-txt {
     width: 100%;
   }
-}
+}*/
 .tl-4-innov:hover::before {
   height: 0;
 }
@@ -20538,6 +20542,8 @@ section.tl-4-membership.tl-11-section-spacing .container {
   padding-inline: 60px;
   display: flex;
   align-items: flex-end;
+  padding:30px;
+  border:1px solid #000;
 }
 @media screen and (max-width: 1399px) {
   .tl-12-cta-banner {
@@ -26361,4 +26367,11 @@ table.governing-table a{
   width:200px;
   height:200px;
   border:1px solid #000;
+ }
+ .anti-ragging-committee{
+  padding:50px;
+  text-align:center;
+ }
+ .tl-section-ul li{
+  margin-bottom:10px;
  }

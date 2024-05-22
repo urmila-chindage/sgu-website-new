@@ -2,7 +2,7 @@ import React from 'react'
 
 const AntiRaggingCommittee = () => {
   return (
-    <div>AntiRaggingCommittee</div>
+    <div className="anti-ragging-committee">Committee Work under Process</div>
   )
 }
 

@@ -107,7 +107,7 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
                 <li>
                     <NavLink href="/grievance-cell">Grievance Readressal Cell</NavLink>
                 </li>
-               {/*  <li>
+                 <li>
                     <NavLink href="/central-purchase">Central Purchase</NavLink>
                 </li>
                 <li>
@@ -115,7 +115,26 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
                 </li>
                 <li>
                     <NavLink href="/anti-ragging">Anti Ragging Committee</NavLink>
-  </li>  */}
+                </li>  
+             </ul>
+            </li>
+
+            <li className="tl-dropdown-2">
+                <a>
+                Infrastructure <i className="fa-regular fa-angle-right"></i>
+                </a>
+
+               <ul className="tl-submenu tl-submenu-2">
+               <li>
+                    <NavLink href="/about-campus">About Campus</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/campus-images">Campus Images</NavLink>
+                </li>
+                 <li>
+                    <NavLink href="/facilities">Facilities</NavLink>
+                </li>
+                
              </ul>
             </li>
      

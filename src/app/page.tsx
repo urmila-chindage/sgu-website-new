@@ -1,5 +1,7 @@
 import AboutSection9 from '@/component/about/AboutSection9'
 import WhySGU from '@/component/why-sgu/WhySGU';
+import Tatatechnologies from '@/component/ties-up/Tatatechnologies';
+import SchoolsSlider from '@/component/schools/SchoolsSlider';
 import Collaborations from '@/component/collaborations/Collaborations';
 import Management from '@/component/management/Management';
 import Applyonline from '@/component/apply-online/Applyonline';
@@ -34,6 +36,8 @@ const Home10 = () => {
         />
         <BannerSection9 />
         <AboutSection9 />
+        <Tatatechnologies style='' />
+        <SchoolsSlider/>
         <WhySGU/>
         <Collaborations/>
         <NewsandEvents/>

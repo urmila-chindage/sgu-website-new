@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const GrievanceCommitteePage = () => {
   return (
     <Layout5>
-        <BreadcrumbSection title='About Us' style=''/>
+        <BreadcrumbSection title='Committee' style=''/>
         <GrievanceCommittee/>
        {/* <PricingSection/>
         <CtaSection4 style='tl-8-cta-inner'/> */}

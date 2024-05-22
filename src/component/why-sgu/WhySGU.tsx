@@ -3,7 +3,7 @@ import React from 'react'
 
 const WhySGU = () => {
   return (
-    <section className="tl-1-about pt-120 pb-120">
+    <section className="tl-1-about pt-50 pb-50">
         <div className="container">
             <div className="row align-items-center tl-1-about-row">
                 <div className="col-lg-6">
