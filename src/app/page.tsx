@@ -45,7 +45,7 @@ const Home10 = () => {
         <Management/>
         <CampusSection2 />
         <TestimonialSection2 />
-        <Recruiters style='tl-6-membership pt-120 pb-120' 
+        <Recruiters style='tl-6-membership pt-50 pb-50' 
         slideStyle='' 
         swiperStyle=''/>
         <SguVideo/>

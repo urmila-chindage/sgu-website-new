@@ -12,7 +12,8 @@ const Recruiters:React.FC<MemberProps> = ({style,slideStyle,swiperStyle}) => {
   return (
     <section className={style}>
         <div className="container">
-        <h2 className="text-center mb-30">Our Recruiters</h2>
+        <h2 className="tl-section-title text-center mb-30">Our Recruiters</h2> 
+       
             <Swiper 
             className={`tl-6-members ${swiperStyle} owl-carousel`}
             slidesPerView={5}

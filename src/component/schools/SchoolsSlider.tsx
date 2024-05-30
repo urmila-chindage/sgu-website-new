@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 const SchoolsSlider = () => {
   return (
-    <section className="tl-2-services pt-120 pb-120" data-bg-color="#F3F1F1">
+    <section className="tl-2-services pt-50 pb-50" data-bg-color="#F3F1F1">
             <div className="container">
                 <div className="tl-2-section-heading">
                     <h2 className="tl-2-section-title">Schools</h2>

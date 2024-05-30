@@ -24,7 +24,7 @@ const CampusSection2 = () => {
    
   ]
   return (
-    <section className="tl-10-campus-section p-120">
+    <section className="tl-10-campus-section p-50">
       <div className="container">
         <div className="tl-10-section-heading">
           <h2 className="tl-section-title tl-10-campus-section-title">

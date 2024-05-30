@@ -3,7 +3,7 @@ import AboutTestimonialSlider from '../slider/AboutTestimonialSlider'
 
 const TestimonialSection2 = () => {
   return (
-    <section className="tl-10-testimonial tl-testimonial pb-120">
+    <section className="tl-10-testimonial tl-testimonial pb-50">
     <div className="container">
         <div className="tl-10-section-heading">
             <h2 className="tl-section-title">

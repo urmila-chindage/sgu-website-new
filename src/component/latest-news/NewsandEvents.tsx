@@ -64,7 +64,7 @@ const NewsandEvents = () => {
                                        
                                     </div>
                                     <h4 className="tl-3-single-blog-title"><Link href="#">{item.title}</Link></h4>
-                                    <p>{item.desc}</p>
+                                    <p className="latest-news-desc">{item.desc}</p>
                                     <Link href="#" className="tl-3-single-blog-btn">Read More <i className="fa-regular fa-arrow-right"></i></Link>
                                 </div>
                             </div>

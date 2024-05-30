@@ -4,7 +4,7 @@ import React from 'react'
 
 const Management = () => {
   return (
-    <section className="tl-6-editorials pt-120 pb-120">
+    <section className="tl-6-editorials pt-50 pb-50">
     <div className="container">
         <h2 className="tl-6-section-title">Management</h2>
 
