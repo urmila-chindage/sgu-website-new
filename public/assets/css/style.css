@@ -24022,6 +24022,9 @@ footer.tl-footer.tl-14-footer.tl-1-footer {
 .dark_mode .tl-3-single-event-date {
   border-color: rgba(255, 255, 255, 0.24);
 }
+.dark_mode .tl-3-single-event-date i{
+  color:#fff;
+}
 .dark_mode .tl-3-single-event-date::before, .dark_mode .tl-3-single-event-date::after {
   background-color: rgba(255, 255, 255, 0.24);
 }
