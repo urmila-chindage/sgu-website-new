@@ -8,48 +8,76 @@ const Collaborations = () => {
         <div className="container">
            <div className="tl-3-events-cards">
                 <div className="row">
-                  <div className="col-md-3">
+                  
+                    <div className="col-md-6">
                         <div className="tl-3-single-event">
-                           <p className="collaborations-icons"><i className="fa-regular fa-handshake"></i></p>
-                                <div className="tl-3-single-event-txt">
-                                   <Link href="#" className="tl-3-single-event-title">Collaborations</Link>
-                                   <p>SGU has collaborations with Foreign Universities, Industries .....</p>
-                                </div>
-                        </div>
-                    </div>  
-
-                    <div className="col-md-3">
-                        <div className="tl-3-single-event">
-                           <p className="collaborations-icons"><i className="fa-regular fa-th"></i></p>
-                                <div className="tl-3-single-event-txt">
-                                   <Link href="#" className="tl-3-single-event-title">Credit Based Evaluation (CBE) System</Link>
-                                   <p>Student have the flexibility to pursue</p>
-                                </div>
+                            <div className="tl-3-single-event-date">
+                            <i className="fa-regular fa-handshake"></i>
+                            </div>
+                            <div className="tl-3-single-event-txt">
+                                <div className="tl-3-single-event-info">
+                                    <h6 className="tl-3-single-event-location">
+                                       SGU has collaborations with Foreign Universities, Industries .....
+                                    </h6>
+                                 </div>
+                                 <h3 className="tl-3-single-event-title"><Link href="#">Collaborations</Link></h3>
+                            </div>
                         </div>
                     </div> 
 
-                    <div className="col-md-3">
+                     <div className="col-md-6">
                         <div className="tl-3-single-event">
-                           <p className="collaborations-icons"><i className="fa-regular fa-book"></i></p>
-                                <div className="tl-3-single-event-txt">
-                                   <Link href="#" className="tl-3-single-event-title">Job Oriented Programmes</Link>
-                                   <p>Industry Oriented Programmes for job opportunities</p>
-                                </div>
+                            <div className="tl-3-single-event-date">
+                            <i className="fa-regular fa-th"></i>
+                            </div>
+                            <div className="tl-3-single-event-txt">
+                                <div className="tl-3-single-event-info">
+                                    <h6 className="tl-3-single-event-location">
+                                       Student have the flexibility to pursue
+                                    </h6>
+                                 </div>
+                                 <h3 className="tl-3-single-event-title"><Link href="#">Credit Based Evaluation (CBE) System</Link></h3>
+                            </div>
                         </div>
                     </div> 
 
-                    <div className="col-md-3">
+                     <div className="col-md-6">
                         <div className="tl-3-single-event">
-                           <p className="collaborations-icons"><i className="fa-regular fa-clipboard"></i></p>
-                                <div className="tl-3-single-event-txt">
-                                   <Link href="#" className="tl-3-single-event-title">Outcome Based Education (OBE) System</Link>
-                                   <p>Best Practices in Teaching - Learning</p>
-                                </div>
+                            <div className="tl-3-single-event-date">
+                            <i className="fa-regular fa-book"></i>
+                            </div>
+                            <div className="tl-3-single-event-txt">
+                                <div className="tl-3-single-event-info">
+                                    <h6 className="tl-3-single-event-location">
+                                          Industry Oriented Programmes for job opportunities
+                                    </h6>
+                                 </div>
+                                 <h3 className="tl-3-single-event-title"><Link href="#">Job Oriented Programmes</Link></h3>
+                            </div>
                         </div>
-                    </div>   
+                    </div> 
+
+                    <div className="col-md-6">
+                        <div className="tl-3-single-event">
+                            <div className="tl-3-single-event-date">
+                            <i className="fa-regular fa-clipboard"></i>
+                            </div>
+                            <div className="tl-3-single-event-txt">
+                                <div className="tl-3-single-event-info">
+                                    <h6 className="tl-3-single-event-location">
+                                          Best Practices in Teaching - Learning
+                                    </h6>
+                                 </div>
+                                 <h3 className="tl-3-single-event-title"><Link href="#">Outcome Based Education (OBE) System</Link></h3>
+                            </div>
+                        </div>
+                    </div>    
+                     
+                  
+                    
                 </div>
             </div>
-        </div>
+         </div>
     </section>
   )
 }

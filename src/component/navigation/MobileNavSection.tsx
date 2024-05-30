@@ -6,6 +6,8 @@ interface DropdownState {
   statutoryboard : boolean,
   committee : boolean,
   infrastructure : boolean,
+  admissions : boolean,
+  feestructure : boolean,
   courses: boolean;
   page: boolean;
   blog: boolean;
@@ -24,6 +26,8 @@ const MobileNavSection = () => {
     statutoryboard:false,
     committee : false,
     infrastructure : false,
+    admissions : false,
+    feestructure : false,
     courses: false,
     blog: false,
     page: false,
@@ -231,40 +235,119 @@ const MobileNavSection = () => {
                 </li>
               </ul>
             </li>
-          {/*  <li>
-              <NavLink href="/home-4">College</NavLink>
+
+            <li>
+              <NavLink href="/university-object">University Aspects & Objects</NavLink>
             </li>
             <li>
-              <NavLink href="/home-5">University</NavLink>
+              <NavLink href="/affiliations">Affiliations & Certifications</NavLink>
             </li>
             <li>
-              <NavLink href="/home-6">Magazine</NavLink>
+              <NavLink href="/awards">Awards and Accolades</NavLink>
             </li>
             <li>
-              <NavLink href="/home-7">Dance School</NavLink>
+              <NavLink href="/vision-mision">Vision and Mission</NavLink>
             </li>
             <li>
-              <NavLink href="/home-8">Driving School</NavLink>
+              <NavLink href="/quality-policy">Quality Policy and Objective</NavLink>
             </li>
             <li>
-              <NavLink href="/home-9">Music School</NavLink>
+              <NavLink href="/core-values">Core Values</NavLink>
             </li>
             <li>
-              <NavLink href="/home-10">University Two</NavLink>
+                <NavLink href="/social-responsibilities">Social Responsibilities</NavLink>
             </li>
-            <li>
-              <NavLink href="/home-11">Magazine Two</NavLink>
-            </li>
-            <li>
-              <NavLink href="/home-12">Live Class</NavLink>
-            </li>
-            <li>
-              <NavLink href="/home-13">Online Course</NavLink>
-            </li>
-            <li>
-              <NavLink href="/home-14">Language Club</NavLink>
-            </li>  */}
+        
+        
           </ul>  
+        </li>
+
+        <li className="tl-nav-item tl-dropdown">
+          <a className={isDropdownOpen.admissions ? "dropdown-open" : ""}>
+            Admissions{" "}
+            <span
+              className={`inner-mean-expand ${
+                isDropdownOpen.admissions ? "active" : ""
+              }`}
+              role="button"
+              onClick={() => handleDropdownToggle("admissions")}
+            >
+              {isDropdownOpen.admissions ? "-" : "+"}
+            </span>
+          </a>
+
+          <ul className={`tl-submenu ${
+              isDropdownOpen.admissions ? "d-block" : "d-none"
+            }`}>
+                <li>
+                    <NavLink href="/school-of-engineering">Programs Offered & Intake</NavLink>
+                </li>
+
+                <li  className="tl-nav-item tl-dropdown">
+            <a className={isDropdownOpen.feestructure ? "dropdown-open" : ""}>
+            Fee Structure{" "}
+            <span
+              className={`inner-mean-expand ${
+                isDropdownOpen.feestructure ? "active" : ""
+              }`}
+              role="button"
+              onClick={() => handleDropdownToggle("feestructure")}
+            >
+              {isDropdownOpen.feestructure ? "-" : "+"}
+            </span>
+          </a>
+
+               <ul className={`tl-submenu ${
+              isDropdownOpen.feestructure ? "d-block" : "d-none"
+            }`}>
+                <li>
+                    <NavLink href="/academic-year-24-25">Academic Year 2024-25</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/academic-year-23-24">Academic Year 2023-24</NavLink>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+                    <NavLink href="/phd-admissions">Ph.D Admission</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/scholarships">Scholarships</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/how-to-apply">How to Apply</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/facilities">Facilities Provided</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/online-admission-enquiry">Online Admission Enquiry</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/admission-fee-bank-details">Admission Fee Bank Details</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/eligibility-criteria">Eligibility Criteria & Selection Process</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/document-required">Documents Required</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/admission-policy">Admission Policy</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/reservation-policy">Reservation Policy</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/sgu-entrance">SGU Entrance Test</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/assets/docs/admission-cutoff-23-24/admission-cutoff-23-24.pdf">Admission Cut Off 2023-2024 </NavLink>
+                </li>
+          </ul>
+
+       
         </li>
 
         <li className="tl-nav-item tl-dropdown">
@@ -281,30 +364,7 @@ const MobileNavSection = () => {
             </span>
           </a>
 
-       {/*   <ul
-            className={`tl-submenu ${
-              isDropdownOpen.courses ? "d-block" : "d-none"
-            }`}
-          >
-            <li>
-              <NavLink href="/course">Course One</NavLink>
-            </li>
-            <li>
-              <NavLink href="/course-2">Course Two</NavLink>
-            </li>
-            <li>
-              <NavLink href="/course-3">Course Three</NavLink>
-            </li>
-            <li>
-              <NavLink href="/course-4">Course Four</NavLink>
-            </li>
-
-            <li>
-              <NavLink href="/course/language-and-culture-exchange-program">
-                Course Details
-              </NavLink>
-            </li>
-          </ul>  */}
+       
         </li>
 
         <li className="tl-nav-item tl-dropdown">
@@ -346,134 +406,10 @@ const MobileNavSection = () => {
                 <li>
                   <NavLink href="/about-7">About Us</NavLink>
                 </li>
-               {/*  <li>
-                  <NavLink href="/about">About One</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/about-2">About Two</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/about-3">About Three</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/about-4">About Four</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/about-5">About Five</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/about-6">About Six</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/about-7">About Seven</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/about-8">About Eight</NavLink>
-              </li>  */}
+              
               </ul>
             </li>
-            {/* <li className="tl-dropdown-2">
-              <a className={isDropdownOpen.staff ? "inner-dropdown-open" : ""}>
-                Staff{" "}
-                <span
-                  className={`inner-mean-expand ${
-                    isDropdownOpen.staff ? "active" : ""
-                  }`}
-                  role="button"
-                  onClick={() => handleDropdownToggle("staff")}
-                >
-                  {isDropdownOpen.staff ? "-" : "+"}
-                </span>
-              </a>
-
-              <ul
-                className={`tl-submenu tl-submenu-2 ${
-                  isDropdownOpen.staff ? "d-block" : "d-none"
-                }`}
-              >
-                <li>
-                  <NavLink href="/staff">Staff One</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/staff-2">Staff Two</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/staff-3">Staff Three</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/staff-4">Staff Four</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/staff-5">Staff Five</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/staff-6">Staff Six</NavLink>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <NavLink href="/staff/nathaneal-down">Staff Profile</NavLink>
-              </li>  
-            <li className="tl-dropdown-2">
-              <a className={isDropdownOpen.event ? "inner-dropdown-open" : ""}>
-                Event{" "}
-                <span
-                  className={`inner-mean-expand ${
-                    isDropdownOpen.event ? "active" : ""
-                  }`}
-                  role="button"
-                  onClick={() => handleDropdownToggle("event")}
-                >
-                  {isDropdownOpen.event ? "-" : "+"}
-                </span>
-              </a>
-              <ul
-                className={`tl-submenu tl-submenu-2 ${
-                  isDropdownOpen.event ? "d-block" : "d-none"
-                }`}
-              >
-                <li>
-                  <NavLink href="/event">Event One</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/event-2">Event Two</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/event-3">Event Three</NavLink>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <NavLink href="/event/blockchain-symposium">
-                Event Details
-              </NavLink>
-            </li>
-            <li className="tl-dropdown-2">
-              <a className={isDropdownOpen.auth ? "inner-dropdown-open" : ""}>
-                Authentication{" "}
-                <span
-                  className={`inner-mean-expand ${
-                    isDropdownOpen.auth ? "active" : ""
-                  }`}
-                  role="button"
-                  onClick={() => handleDropdownToggle("auth")}
-                >
-                  {isDropdownOpen.auth ? "-" : "+"}
-                </span>
-              </a>
-              <ul
-                className={`tl-submenu tl-submenu-2 ${
-                  isDropdownOpen.auth ? "d-block" : "d-none"
-                }`}
-              >
-                <li>
-                  <NavLink href="/login">Login</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/register">Register</NavLink>
-                </li>
-              </ul>
-            </li> */}
+           
           </ul>
         </li>
 
@@ -490,63 +426,7 @@ const MobileNavSection = () => {
               {isDropdownOpen.blog ? "-" : "+"}
             </span>
           </a>
-         {/*  <ul
-            className={`tl-submenu ${
-              isDropdownOpen.blog ? "d-block" : "d-none"
-            }`}
-          >
-            <li className="tl-dropdown-2">
-              <a
-                className={
-                  isDropdownOpen.blogPages ? "inner-dropdown-open" : ""
-                }
-              >
-                Blog{" "}
-                <span
-                  className={`inner-mean-expand ${
-                    isDropdownOpen.blogPages ? "active" : ""
-                  }`}
-                  role="button"
-                  onClick={() => handleDropdownToggle("blogPages")}
-                >
-                  {isDropdownOpen.blogPages ? "-" : "+"}
-                </span>
-              </a>
-
-              <ul
-                className={`tl-submenu tl-submenu-2 ${
-                  isDropdownOpen.blogPages ? "d-block" : "d-none"
-                }`}
-              >
-                <li>
-                  <NavLink href="/blog">Blog One</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/blog-2">Blog Two</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/blog-3">Blog Three</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/blog-4">Blog Four</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/blog-5">Blog Five</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/blog-6">Blog Six</NavLink>
-                </li>
-                <li>
-                  <NavLink href="/blog-7">Blog Seven</NavLink>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <NavLink href="/blog/lms-for-corporate-training-optimizing-employee-learning-and-development">
-                Blog Details
-              </NavLink>
-            </li>
-          </ul>  */}
+        
         </li>
 
         <li className="tl-nav-item tl-dropdown">
@@ -567,9 +447,7 @@ const MobileNavSection = () => {
               isDropdownOpen.contact ? "d-block" : "d-none"
             }`}
           >
-           {/* <li>
-              <NavLink href="/contact">Contact One</NavLink>
-          </li> */}
+          
             <li className="mean-last">
               <NavLink href="/contact-2">Contact Us</NavLink>
             </li>

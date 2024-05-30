@@ -1,91 +1,57 @@
 'use client'
+import { membershipList } from '@/data/Data'
 import React from 'react'
-import Slider from 'react-slick';
-
-const Recruiters = () => {
-    const settings = {
-        dots: false,
-        arrows: false,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 4000,
-        autoplaySpeed: 0,
-        vertical: false,
-        cssEase: "linear",
-        pauseOnHover: false,
-        responsive: [
-          {
-            breakpoint: 991,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              infinite: true,
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-        };
+import { Autoplay, Navigation } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
+interface MemberProps {
+  style: string;
+  swiperStyle: string;
+  slideStyle: string;
+}
+const Recruiters:React.FC<MemberProps> = ({style,slideStyle,swiperStyle}) => {
   return (
-    <>
-    <div className="tl-2-section-heading">
-          <h2 className="tl-2-section-title text-center">Our Recruiters</h2>
+    <section className={style}>
+        <div className="container">
+        <h2 className="text-center mb-30">Our Recruiters</h2>
+            <Swiper 
+            className={`tl-6-members ${swiperStyle} owl-carousel`}
+            slidesPerView={5}
+            slidesPerGroup={1}
+            loop={true}
+            autoplay={{delay: 2000}}
+            navigation={{
+              nextEl: '.tl-6-members-next',
+              prevEl: '.tl-6-members-prev',
+            }}
+            modules={[Autoplay,Navigation]}
+            breakpoints={{
+              0: {
+                  slidesPerView: 3,
+              },
+  
+              480: {
+                  slidesPerView: 4,
+              },
+            }}
+            >
+              
+                {membershipList.map((item) => (
+                  <SwiperSlide className={`tl-6-member ${slideStyle}`} key={item.id}>
+                    
+                    <img src={item.imgSrc} alt="Member logo"/>
+                  </SwiperSlide>  
+                ))}
+                <div className="tl-6-members-nav">
+                    <button className="tl-6-members-prev">
+                      <i className="fa-regular fa-arrow-left"></i>
+                    </button>
+                    <button className="tl-6-members-next">
+                      <i className="fa-regular fa-arrow-right"></i>
+                    </button>
+                  </div>
+            </Swiper>
         </div>
-    <Slider className="tl-13-about-features" {...settings}>
-         
-       <div className="tl-13-about-feature" > <img src="assets/images/tl-1/engg01.jpg" alt="Recruiters-image" /></div>
-        <img src="assets/images/tl-1/engg02.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg03.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg04.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-
-        <img src="assets/images/tl-1/engg05.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg06.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg07.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg08.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-
-        <img src="assets/images/tl-1/engg09.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg10.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg11.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg12.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-
-        <img src="assets/images/tl-1/engg14.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg15.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg16.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg17.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-
-        <img src="assets/images/tl-1/engg18.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg21.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg33.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg36.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-
-        <img src="assets/images/tl-1/engg37.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/engg38.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/mba01.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/mba02.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-
-        <img src="assets/images/tl-1/mba04.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/mba05.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/mba07.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/mba10.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-
-        <img src="assets/images/tl-1/mba11.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/mba12.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/mba14.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/mba15.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-
-        <img src="assets/images/tl-1/mba16.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-        <img src="assets/images/tl-1/mba18.jpg" className="tl-13-about-feature" alt="Recruiters-image" />
-
-        
-    </Slider>
-    </>
+    </section>
   )
 }
 

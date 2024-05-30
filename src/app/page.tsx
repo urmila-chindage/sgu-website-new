@@ -1,11 +1,11 @@
-import AboutSection9 from '@/component/about/AboutSection9'
+import AboutSection from '@/component/about/About-us/AboutSection'
 import WhySGU from '@/component/why-sgu/WhySGU';
 import Tatatechnologies from '@/component/ties-up/Tatatechnologies';
 import SchoolsSlider from '@/component/schools/SchoolsSlider';
 import Collaborations from '@/component/collaborations/Collaborations';
 import Management from '@/component/management/Management';
 import Applyonline from '@/component/apply-online/Applyonline';
-import BannerSection9 from '@/component/banner/BannerSection9';
+import BannerSection from '@/component/banner/BannerSection';
 import NewsandEvents from '@/component/latest-news/NewsandEvents';
 import BlogSection6 from '@/component/blog/BlogSection6';
 import CampusSection2 from '@/component/campus/CampusSection2';
@@ -34,18 +34,20 @@ const Home10 = () => {
         btnStyle='tl-def-btn'
         loginBtn={true}
         />
-        <BannerSection9 />
-        <AboutSection9 />
-        <Tatatechnologies style='' />
-        <SchoolsSlider/>
+        <BannerSection />
+        <AboutSection />
+        <Tatatechnologies />
         <WhySGU/>
-        <Collaborations/>
         <NewsandEvents/>
-        <Management/>
+        <Collaborations/>
+        <SchoolsSlider/>
         <Applyonline/>
+        <Management/>
         <CampusSection2 />
         <TestimonialSection2 />
-        <Recruiters/>
+        <Recruiters style='tl-6-membership pt-120 pb-120' 
+        slideStyle='' 
+        swiperStyle=''/>
         <SguVideo/>
        
        {/* <PricingSection3 />

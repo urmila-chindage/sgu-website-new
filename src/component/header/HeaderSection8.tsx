@@ -48,17 +48,17 @@ const HeaderSection8: React.FC<HeaderProps> = ({
             </div>
           </div>
 
-          <div className="col-6">
+          <div className="col-7">
             <div className="tl-nav-menu">
               <NavSection ulPosition="" liStyle="" />
             </div>
           </div>
 
-          <div className="col-4 d-lg-block d-none">
+          <div className="col-3 d-lg-block d-none">
             <div className="tl-header-actions d-flex justify-content-end">
               {loginBtn ? (
                 <>
-                  <form action="#" className="tl-nav-search-form">
+                 {/* <form action="#" className="tl-nav-search-form">
                     <input
                       type="search"
                       name="Search"
@@ -68,14 +68,14 @@ const HeaderSection8: React.FC<HeaderProps> = ({
                     <button className="tl-searh-btn">
                       <i className="fa-light fa-magnifying-glass"></i>
                     </button>
-                  </form>
+              </form>  */}
                   <Link href="/login" className={btnStyle}>
                     <i className="fa-regular fa-user"></i> Login
                   </Link>
                 </>
               ) : (
                 <>
-                  <form
+                 {/* <form
                     action="#"
                     className="tl-nav-search-form kb-10-nav-search-form"
                   >
@@ -88,7 +88,7 @@ const HeaderSection8: React.FC<HeaderProps> = ({
                     <button className="tl-searh-btn kb-searh-btn-10">
                       <i className="fa-light fa-magnifying-glass"></i>
                     </button>
-                  </form>
+              </form>  */}
                   <Link href="/register" className="kb-10-def-btn">
                     Subscribe
                   </Link>

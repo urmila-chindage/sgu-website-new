@@ -1303,44 +1303,137 @@ const alumniTextList = [
 const membershipList = [
   {
     id: 0,
-    imgSrc: "assets/images/kb-10/member-1.png",
+    imgSrc: "assets/images/recruiters/engg02.jpg",
   },
   {
     id: 1,
-    imgSrc: "assets/images/kb-10/member-2.png",
+    imgSrc: "assets/images/recruiters/engg03.jpg",
   },
   {
     id: 2,
-    imgSrc: "assets/images/kb-10/member-3.png",
+    imgSrc: "assets/images/recruiters/engg04.jpg",
   },
   {
     id: 3,
-    imgSrc: "assets/images/kb-10/member-4.png",
+    imgSrc: "assets/images/recruiters/engg05.jpg",
   },
   {
     id: 4,
-    imgSrc: "assets/images/kb-10/member-5.png",
+    imgSrc: "assets/images/recruiters/engg06.jpg",
   },
   {
     id: 5,
-    imgSrc: "assets/images/kb-10/member-1.png",
+    imgSrc: "assets/images/recruiters/engg07.jpg",
   },
   {
     id: 6,
-    imgSrc: "assets/images/kb-10/member-2.png",
+    imgSrc: "assets/images/recruiters/engg08.jpg",
   },
   {
     id: 7,
-    imgSrc: "assets/images/kb-10/member-3.png",
+    imgSrc: "assets/images/recruiters/engg09.jpg",
   },
   {
     id: 8,
-    imgSrc: "assets/images/kb-10/member-4.png",
+    imgSrc: "assets/images/recruiters/engg10.jpg",
   },
   {
     id: 9,
-    imgSrc: "assets/images/kb-10/member-5.png",
+    imgSrc: "assets/images/recruiters/engg11.jpg",
   },
+  {
+    id: 10,
+    imgSrc: "assets/images/recruiters/engg12.jpg",
+  },
+  {
+    id: 11,
+    imgSrc: "assets/images/recruiters/engg14.jpg",
+  },
+  {
+    id: 12,
+    imgSrc: "assets/images/recruiters/engg15.jpg",
+  },
+  {
+    id: 13,
+    imgSrc: "assets/images/recruiters/engg16.jpg",
+  },
+  {
+    id: 14,
+    imgSrc: "assets/images/recruiters/engg17.jpg",
+  },
+  {
+    id: 15,
+    imgSrc: "assets/images/recruiters/engg18.jpg",
+  },
+  {
+    id: 16,
+    imgSrc: "assets/images/recruiters/engg21.jpg",
+  },
+  {
+    id: 17,
+    imgSrc: "assets/images/recruiters/engg33.jpg",
+  },
+  {
+    id: 18,
+    imgSrc: "assets/images/recruiters/engg36.jpg",
+  },
+  {
+    id: 19,
+    imgSrc: "assets/images/recruiters/engg37.jpg",
+  },
+  {
+    id: 20,
+    imgSrc: "assets/images/recruiters/engg38.jpg",
+  },
+  {
+    id: 21,
+    imgSrc: "assets/images/recruiters/mba01.jpg",
+  },
+  {
+    id: 22,
+    imgSrc: "assets/images/recruiters/mba02.jpg",
+  },
+  {
+    id: 23,
+    imgSrc: "assets/images/recruiters/mba04.jpg",
+  },
+  {
+    id: 24,
+    imgSrc: "assets/images/recruiters/mba05.jpg",
+  },
+  {
+    id: 25,
+    imgSrc: "assets/images/recruiters/mba07.jpg",
+  },
+  {
+    id: 26,
+    imgSrc: "assets/images/recruiters/mba10.jpg",
+  },
+  {
+    id: 27,
+    imgSrc: "assets/images/recruiters/mba11.jpg",
+  },
+  {
+    id: 28,
+    imgSrc: "assets/images/recruiters/mba12.jpg",
+  },
+  {
+    id: 29,
+    imgSrc: "assets/images/recruiters/mba14.jpg",
+  },
+  {
+    id: 30,
+    imgSrc: "assets/images/recruiters/mba15.jpg",
+  },
+  {
+    id: 31,
+    imgSrc: "assets/images/recruiters/mba16.jpg",
+  },
+  {
+    id: 32,
+    imgSrc: "assets/images/recruiters/mba18.jpg",
+  },
+
 ];
 
 const bannerSliderData = [
@@ -1474,7 +1567,7 @@ const serviceSliderData = [
 const blogList = [
   {
     id: 0,
-    imgSrc: "assets/images/blog/blog-1.png",
+    imgSrc: "assets/images/latest-news/latest-image3.jpg",
     date: "March 24, 2023",
     title:
       "Industrial Training / Internship",
@@ -1485,7 +1578,7 @@ const blogList = [
   },
   {
     id: 1,
-    imgSrc: "assets/images/blog/blog-2.png",
+    imgSrc: "assets/images/latest-news/latest-image6.jpeg",
     date: "April 1, 2023",
     title: "ISO 9001:2015 & ISO 21001:2018",
     author: "Jane Doe",
@@ -1495,7 +1588,7 @@ const blogList = [
   },
   {
     id: 2,
-    imgSrc: "assets/images/blog/blog-3.png",
+    imgSrc: "assets/images/latest-news/latest-image8.jpg",
     date: "April 2, 2023",
     title: "News And Event",
     author: "John Smith",
@@ -1505,7 +1598,7 @@ const blogList = [
   },
   {
     id: 3,
-    imgSrc: "assets/images/blog/blog-4.png",
+    imgSrc: "assets/images/latest-news/latest-image8.jpg",
     date: "April 3, 2023",
     title: "News And Event",
     author: "Alice Johnson",
@@ -1515,7 +1608,7 @@ const blogList = [
   },
   {
     id: 4,
-    imgSrc: "assets/images/blog/blog-5.png",
+    imgSrc: "assets/images/latest-news/latest-image5.jpeg",
     date: "April 4, 2023",
     title: "News And Event",
     author: "David Brown",
@@ -1525,7 +1618,7 @@ const blogList = [
   },
   {
     id: 5,
-    imgSrc: "assets/images/blog/blog-6.png",
+    imgSrc: "assets/images/latest-news/latest-image2.jpg",
     date: "April 5, 2023",
     title: "News And Event",
     author: "Emily Wilson",
@@ -1535,7 +1628,7 @@ const blogList = [
   },
   {
     id: 6,
-    imgSrc: "assets/images/blog/blog-7.png",
+    imgSrc: "assets/images/latest-news/latest-image1.jpg",
     date: "April 6, 2023",
     title: "News And Event",
     author: "George Anderson",
@@ -1545,17 +1638,17 @@ const blogList = [
   },
   {
     id: 7,
-    imgSrc: "assets/images/blog/blog-8.png",
+    imgSrc: "assets/images/latest-news/latest-image10.jpg",
     date: "April 7, 2023",
     title: "News And Event",
     author: "Hannah Davis",
     category: "Latest News",
-    desc: "Proud moment for Sanjay Ghodawat University as Indian Star Woman Cricketer and Vice Captain, Smriti Mandhana has taken admission in our University for B. Com course. It is indeed a great news for SGU! Congratulations Team SGU and Smriti										",
+    desc: "Proud moment for Sanjay Ghodawat University as Indian Star Woman Cricketer and Vice Captain, Smriti Mandhana has taken admission in our University for B. Com course. It is indeed a great news for SGU! Congratulations Team SGU and Smriti",
     slug: "news-and-events",
   },
   {
     id: 8,
-    imgSrc: "assets/images/blog/blog-9.png",
+    imgSrc: "assets/images/latest-news/latest-image6.jpeg",
     date: "April 8, 2023",
     title: "SGU Global",
     author: "Isaac Clark",
@@ -1565,7 +1658,7 @@ const blogList = [
   },
   {
     id: 9,
-    imgSrc: "assets/images/blog/blog-10.png",
+    imgSrc: "assets/images/latest-news/latest-image4.jpg",
     date: "April 9, 2023",
     title: "News And Event",
     author: "Jessica Evans",
@@ -2547,28 +2640,138 @@ const eventList = [
 const faqList = [
   {
     id: 0,
-    ques: 'How many hours of lessons do you need to pass?',
-    ans: 'The number of hours needed to pass varies by course, but typically around 50-60 hours.'
+    ques: 'What is the affiliation and approval of the university?',
+    ans: 'Sanjay Ghodawat University (SGU) is a State Private University established in the year 2017 under the Maharashtra Act no. XL of 2017 and degrees awarded by the university are equivalent to that of any Central/State Government universities or deemed universities and recognized all over India and abroad.'
   },
   {
     id: 1,
-    ques: 'What are the payment options?',
-    ans: 'We accept credit/debit cards, PayPal, and bank transfers for your convenience.'
+    ques: 'Which is the Sponsoring body or trust?',
+    ans: 'SGU is Sponsored and supported by Sou.Sushila Danchand Ghodawat Charitable Trust founded in the name of respected mother of Hon. Shri.Sanjay Ghodawat , President of SGU who also is the chairman of renowned Ghodawat Group of Industries.'
   },
   {
     id: 2,
-    ques: "Can I get a refund if I'm not satisfied?",
-    ans: "Yes, we offer a 30-day satisfaction guarantee. If you're not happy, we'll refund."
+    ques: "Where is the university Situated/located?",
+    ans: "SGU is situated near the wonderful scenic location of Atigre village in Kolhapur district of Maharashtra on a Kolhapur Sangli Highway."
   },
   {
     id: 3,
-    ques: 'Do you provide online support?',
-    ans: 'Yes, we offer 24/7 online support for our students.'
+    ques: 'What are the Schools under university and what are the Programs/Course offered under these schools?',
+    ans: 'SGU at Present offers UG, PG and PhD courses through its four different schools namely School of Technology, School of Commerce and Management, School of Science and School of Liberal arts.Click here for Programmes Offered by SGU'
   },
   {
     id: 4,
-    ques: 'Is there a group discount available?',
-    ans: 'Yes, we offer group discounts for groups of 5 or more.'
+    ques: "What is the academic background of the university?",
+    ans: "SGU was formerly known as Sanjay Ghodawat Institute (SGI) which was established in the year 2009 and became the most preferred institute for engineering education in the region in a short span of seven years and received NAAC 'A' Grade and NBA accreditation. It has been awarded by many National and International Ranking Agencies"
+  },
+  {
+    id: 5,
+    ques: "What is the Eligibility for admissions in different programs?",
+    ans: "Click here to View the eligibility for admissions of different programs"
+  },
+  {
+    id: 6,
+    ques: "What is the syllabus/curriculum/Course contents and credits of different programs offered?",
+    ans: "For Department wise information please check Department menu of Home Page."
+  },
+  {
+    id: 7,
+    ques: "What is the Fee Structure?",
+    ans: "Click here to View the Fee Structure of different programs."
+  },
+  {
+    id: 8,
+    ques: "Whether Reservation is available for admissions?",
+    ans: "Yes. The University offers reservation for admissions under different programs as per the rules and guidelines of the Central/State government. The reservation is only for the number of seats under the program and not for the Fees."
+  },
+  {
+    id: 9,
+    ques: "What is the Process of admission for a particular program?",
+    ans: "Click here to View the process of admissions of different programs."
+  },
+  {
+    id: 10,
+    ques: "Is there any scholarship/fee waiver offered?",
+    ans: "Yes. University offers various scholarships for meritorious students based on their scores in the qualifying examinations. Policy is decided every year"
+  },
+  {
+    id: 11,
+    ques: "What are different Facilities offered by the university?",
+    ans: "Click here to View the Facilities offered by SGU"
+  },
+  {
+    id: 12,
+    ques: "Who are the industrial Academic Partners for different programs?",
+    ans: "Programs conducted under SGU are supported by academic partners from the Industry namely Tata Technology, Harvard Business Publishing School etc.Click here for more information"
+  },
+  {
+    id: 13,
+    ques: "What are the research facilities/collaborations?",
+    ans: "The SGU has an exclusive Research and Development (R & D) center with state of the art infrastructure and Laboratories equipped with Major instruments and softwares."
+  },
+  {
+    id: 14,
+    ques: "Are there any academic tie-ups with the foreign universities?",
+    ans: "Yes. SGU has signed MoU's for strategic academic Partnerships with Northumbria University in United Kingdom, South Carolina University and Harvard business publishing School in United States.Click here for more information"
+  },
+  {
+    id: 15,
+    ques: "What is Credit Based Evaluation (CBE) System ?",
+    ans: "Click here for more information on Credit Based Evaluation (CBE) System"
+  },
+  {
+    id: 16,
+    ques: "What is Outcome Based Education (OBE)?",
+    ans: "Click here for more information on Outcome Based Education (OBE)"
+  },
+  {
+    id: 17,
+    ques: "Which are the Co-curricular / extracurricular activities conducted for all round development of the students?",
+    ans: "SGU has developed a culture of vibrant campus. Number of activities like Techno-Fest, Seminars, Confrences, Hackathons and Quizzes are organized throughout the year. Annual Social gathering, Annual Cultural and Sports are also organized."
+  },
+  {
+    id: 18,
+    ques: "Whether university facilitates the students for participating in National/International Conferences, publications of Research paper, Symposium, filing patents etc?",
+    ans: "Yes. There is a full encouragement and support offered for such activities. There is also provision of funding with all the schools under the University for such Activities. Research and professional development of teachers is always encouraged."
+  },
+  {
+    id: 19,
+    ques: "How many Ph.D. awarded faculty members are there in the university/Program?",
+    ans: "There are 20 faculty members who have completed their Ph.D. and more than 30 members are on the verge of completing their Ph.Ds"
+  },
+  {
+    id: 20,
+    ques: "Whether university provides training and Placement assistance?",
+    ans: "Yes. We have central placement cell with Placement Officer. All the students in SGU participate in a comprehensive Softskill training program every year to prepare themselves to face the recruitment process of National and International recruiters. Efforts are made to place all the eligible candidates."
+  },
+  {
+    id: 21,
+    ques: "What are the recreational facilities in the campus?",
+    ans: "As a part of its state of the art infrastructure SGU has a Multicuisne Food Court , A music Academy, Indoor and Outdoor Sports complex, Swimming pool , Fully equipped gymnasium, Auditorium and an amphitheater"
+  },
+  {
+    id: 22,
+    ques: "Who are the recruiters of the different program under university?",
+    ans: "Click here for Engineering Recruiters List Click here for Management Recruiters List"
+  },
+  {
+    id: 23,
+    ques: "How many times the parents are allowed to meet their wards in a semester?",
+    ans: "Parents are allowed to meet their wards once in a month. If required whenever necessary with the prior permission of the authoritiy."
+  },
+  {
+    id: 24,
+    ques: "What are the schedules/working hours of particular program?",
+    ans: "Working hours are from 10 AM to 5 PM"
+  },
+  {
+    id: 25,
+    ques: "Whether the university has Internal Complaints Committee?",
+    ans: "Yes. Safety and security of the entire student is taken care of. Our 24 hours security services are available. The whole campus is under CCCTV. Anti-ragging policies are strictly observed and special vigilance squad is in place."
+  },
+  {
+    id: 26,
+    ques: "Whether university provides any assistance coaching for appearing for Civil Services exams?",
+    ans: "Yes. SGU has in its campus Sanjay Ghodawat Institute for Administrative Services (SGIAS) exclusively for training and facilitation to Aspirant students."
   }
 ];
 const socialMediaData = [

@@ -1,81 +1,85 @@
 'use client'
-import { schoolsList } from '@/data/Data'
-import Link from 'next/link'
+import { schoolsList, serviceSliderData } from '@/data/Data'
 import React from 'react'
-import { Navigation, Pagination } from 'swiper/modules'
+import { Autoplay, Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 const SchoolsSlider = () => {
   return (
-    <section className="tl-12-mentor tl-11-section-spacing">
-        <div className="container">
-            <div className="tl-12-section-heading tl-12-courses-heading">
-                <h2 className="tl-12-section-title">Schools</h2>
+    <section className="tl-2-services pt-120 pb-120" data-bg-color="#F3F1F1">
+            <div className="container">
+                <div className="tl-2-section-heading">
+                    <h2 className="tl-2-section-title">Schools</h2>
 
-                <div className="tl-12-courses-heading-right d-flex align-items-end align-items-md-center">
-                    <div className="tl-12-courses-slider-pagination" id="tl-12-mentor-slider-pagination"></div>
-                    <div className="tl-12-courses-slider-nav">
-                        <button className="tl-12-courses-slider-prev" id="tl-12-mentor-slider-prev"><i className="fa-regular fa-arrow-left-long"></i></button>
-                        <button className="tl-12-courses-slider-next" id="tl-12-mentor-slider-next"><i className="fa-regular fa-arrow-right-long"></i></button>
+                   
+                </div>
+
+                <div className="position-relative">
+                    <Swiper 
+                    className="tl-2-services-slider owl-carousel"
+                    slidesPerView={3}
+                    spaceBetween={30}
+                    loop={true}
+                    autoplay={{delay: 2000}}
+                    navigation={{
+                        nextEl: '.owl-next',
+                        prevEl: '.owl-prev'
+                    }}
+                    modules={[Autoplay,Navigation]}
+                    breakpoints={
+                        {
+                            0: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                
+                            480: {
+                                slidesPerView: 1.5,
+                                centeredSlides: true,
+                            },
+                
+                            768: {
+                                slidesPerView: 2,
+                                spaceBetween: 25,
+                            },
+                
+                            992: {
+                                slidesPerView: 3,
+                                spaceBetween: 25,
+                            },
+                
+                            1200: {
+                                spaceBetween: 30,
+                            }
+                        }
+                    }
+                    >
+                        {schoolsList.map((item) => (
+                          <SwiperSlide className="tl-2-service" key={item.id}>
+                            <div className="tl-1-service-heading tl-2-service-heading">
+                              
+
+                                <span className="tl-8-service-order-numb">{item.schoolsubdept}</span>
+                            </div>
+
+                            <h4 className="tl-1-service-title tl-2-service-title"><a href="#">{item.schoolsdept}</a></h4>
+                            <p className="tl-1-service-descr tl-2-service-descr">{item.desc}</p>
+                            <a href="#" className="tl-2-blog-btn"><span className="tl-2-blog-btn-icon"><i className="fa-regular fa-arrow-up-right"></i></span> read more</a>
+                        </SwiperSlide>  
+                        ))}
+                        
+                    </Swiper>
+                    <div className="tl-2-services-slider-nav" id="tl-2-services-slider-nav">
+                        <button type="button" role="presentation" className="owl-prev">
+                            <i className="fa-light fa-arrow-left"></i>
+                        </button>
+                        <button type="button" role="presentation" className="owl-next"> 
+                            <i className="fa-light fa-arrow-right"></i>
+                        </button>
                     </div>
                 </div>
             </div>
-            <Swiper 
-            className="tl-12-courses-slider swiper" 
-            id="tl-12-mentor-slider"
-            slidesPerView={3}
-            spaceBetween={30}
-            modules={[Navigation, Pagination]}
-            pagination={ {
-                el: "#tl-12-mentor-slider-pagination",
-                type: "fraction"
-            }}
-            navigation={{
-                    nextEl: "#tl-12-mentor-slider-next",
-                    prevEl: "#tl-12-mentor-slider-prev"
-                }}
-            breakpoints={{
-                320: {
-                    slidesPerView: 1,
-                    spaceBetween: 15,
-                },
-                480: {
-                    slidesPerView: 2,
-                    spaceBetween: 15,
-                },
-                768: {
-                    slidesPerView: 3,
-                    spaceBetween: 15,
-                },
-                1200: {
-                    slidesPerView: 3,
-                    spaceBetween: 30,
-                }
-            }}
-            >
-               
-                   
-                    {schoolsList.map((item) => (
-                    <SwiperSlide key={item.id}>
-                        <div className="tl-12-single-mentor tl-12-cta-banner tl-12-cta-banner-2">
-                           <div className="tl-12-single-mentor-txt">
-
-                                <div className="tl-12-single-mentor-info">
-                                    <h4 className="tl-12-single-mentor-name">{item.schoolsdept}</h4>
-                                    <h6 className="tl-12-single-mentor-role">{item.schoolsubdept}</h6>
-                                    <h6 className="tl-12-single-mentor-role">{item.desc}</h6>
-                                    <h4 className="tl-1-course-title"><a className="tl-def-btn" href="#" style={{marginTop:"10px"}}> Read More </a></h4>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </SwiperSlide>   
-                ))}
-                    
-              
-            </Swiper>
-        </div>
-    </section>
+        </section>
   )
 }
 

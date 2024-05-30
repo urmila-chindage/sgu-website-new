@@ -14,6 +14,7 @@ import { ToastContainer } from 'react-toastify';
 import { TalimProvider } from '@/context/TalimContext';
 import ThemeBtnSection from '@/component/theme-btn/ThemeBtnSection';
 import SidebarSection from '@/component/sidebar/SidebarSection';
+import BootstrapClient from '@/component/admissions/Program-offred-and-intake/School-engineering/BoostrapClient';
 export default function RootLayout({
   children,
 }: {
@@ -26,6 +27,7 @@ export default function RootLayout({
           <ThemeBtnSection/>
           <SidebarSection/>
           {children}
+          <BootstrapClient/>
           <ToastContainer/>
         </body>
       </TalimProvider>

@@ -137,245 +137,132 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
                 
              </ul>
             </li>
-     
-          {/*  <li>
-                <NavLink href="/home-2">Kindergarten</NavLink>
+
+            <li>
+                <NavLink href="/university-object">University Aspects & Objects</NavLink>
+            </li>
+
+            <li>
+                <NavLink href="/affiliations">Affiliations & Certifications</NavLink>
             </li>
             <li>
-                <NavLink href="/home-3">School</NavLink>
+                <NavLink href="/awards">Awards and Accolades</NavLink>
             </li>
             <li>
-                <NavLink href="/home-4">College</NavLink>
+                <NavLink href="/vision-mision">Vision and Mission</NavLink>
             </li>
             <li>
-                <NavLink href="/home-5">University</NavLink>
+                <NavLink href="/quality-policy">Quality Policy and Objective</NavLink>
             </li>
             <li>
-                <NavLink href="/home-6">Magazine</NavLink>
+                <NavLink href="/core-values">Core Values</NavLink>
             </li>
             <li>
-                <NavLink href="/home-7">Dance School</NavLink>
+                <NavLink href="/social-responsibilities">Social Responsibilities</NavLink>
             </li>
-            <li>
-                <NavLink href="/home-8">Driving School</NavLink>
-            </li>
-            <li>
-                <NavLink href="/home-9">Music School</NavLink>
-            </li>
-            <li>
-                <NavLink href="/home-10">University Two</NavLink>
-            </li>
-            <li>
-                <NavLink href="/home-11">Magazine Two</NavLink>
-            </li>
-            <li>
-                <NavLink href="/home-12">Live Class</NavLink>
-            </li>
-            <li>
-                <NavLink href="/home-13">Online Course</NavLink>
-            </li>
-            <li>
-                <NavLink href="/home-14">Language Club</NavLink>
-  </li> */}
             </ul> 
         </li>
 
         <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
-            <a role="button">
-            Courses <i className="fa-regular fa-angle-down"></i>
-            </a>
+            <a role="button">Admissions <i className="fa-regular fa-angle-down"></i></a>
              <ul className="tl-submenu">
-             <li>
-                <NavLink href="/course-3">Courses</NavLink>
-            </li>
-          {/*   <li>
-                <NavLink href="/course">Course One</NavLink>
-            </li>
-            <li>
-                <NavLink href="/course-2">Course Two</NavLink>
-            </li>
-            <li>
-                <NavLink href="/course-3">Course Three</NavLink>
-            </li>
-            <li>
-                <NavLink href="/course-4">Course Four</NavLink>
-            </li>
-
-            <li>
-                <NavLink href="/course/language-and-culture-exchange-program">Course Details</NavLink>
-        </li>   */}
-        </ul> 
-        </li>
-
-       {/*  <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
-            <a role="button">
-            Pages <i className="fa-regular fa-angle-down"></i>
-            </a>
-          <ul className="tl-submenu">
-          <li className="tl-dropdown-2">
+                <li>
+                    <NavLink href="/school-of-engineering">Programs Offered & Intake</NavLink>
+                </li>
+                <li className="tl-dropdown-2">
                 <a>
-                About <i className="fa-regular fa-angle-right"></i>
+                Fee Structure <i className="fa-regular fa-angle-right"></i>
                 </a>
 
                <ul className="tl-submenu tl-submenu-2">
                <li>
-                    <NavLink href="/about-7">About Us</NavLink>
-                </li>
-               {/* <li>
-                    <NavLink href="/about">About One</NavLink>
+                    <NavLink href="/academic-year-24-25">Academic Year 2024-25</NavLink>
                 </li>
                 <li>
-                    <NavLink href="/about-2">About Two</NavLink>
+                    <NavLink href="/academic-year-23-24">Academic Year 2023-24</NavLink>
                 </li>
-                <li>
-                    <NavLink href="/about-3">About Three</NavLink>
-                </li>
-                <li>
-                    <NavLink href="/about-4">About Four</NavLink>
-                </li>
-                <li>
-                    <NavLink href="/about-5">About Five</NavLink>
-                </li>
-                <li>
-                    <NavLink href="/about-6">About Six</NavLink>
-                </li>
-                <li>
-                    <NavLink href="/about-7">About Seven</NavLink>
-                </li>
-                <li>
-                    <NavLink href="/about-8">About Eight</NavLink>
-    </li>  
-    </ul>  
+            </ul>
             </li>
 
-             
-            <li className="tl-dropdown-2">
-                <a>
-                Staff <i className="fa-regular fa-angle-right"></i>
-                </a>
-
-             <ul className="tl-submenu tl-submenu-2">
                 <li>
-                    <NavLink href="staff-6">Aerospace Engineering</NavLink>
+                    <NavLink href="/phd-admissions">Ph.D Admission</NavLink>
                 </li>
                 <li>
-                    <NavLink href="staff-6">Mechanical Engineering</NavLink>
-                </li>
-               {/*  <li>
-                    <NavLink href="/staff">Staff One</NavLink>
+                    <NavLink href="/scholarships">Scholarships</NavLink>
                 </li>
                 <li>
-                    <NavLink href="/staff-2">Staff Two</NavLink>
+                    <NavLink href="/how-to-apply">How to Apply</NavLink>
                 </li>
                 <li>
-                    <NavLink href="/staff-3">Staff Three</NavLink>
+                    <NavLink href="/facilities">Facilities Provided</NavLink>
                 </li>
                 <li>
-                    <NavLink href="/staff-4">Staff Four</NavLink>
+                    <NavLink href="/online-admission-enquiry">Online Admission Enquiry</NavLink>
                 </li>
                 <li>
-                    <NavLink href="/staff-5">Staff Five</NavLink>
+                    <NavLink href="/admission-fee-bank-details">Admission Fee Bank Details</NavLink>
                 </li>
                 <li>
-                    <NavLink href="staff-6">Staff Six</NavLink>
-                </li> 
-            </ul>  
-            </li>   */}
-
-            {/*
-            <li>
-                <NavLink href="/staff/nathaneal-down">Staff Profile</NavLink>
-            </li>
-            <li className="tl-dropdown-2">
-                <a>
-                Event <i className="fa-regular fa-angle-right"></i>
-                </a>
-
-                 <ul className="tl-submenu tl-submenu-2">
-                <li>
-                    <NavLink href="/event">Event One</NavLink>
+                    <NavLink href="/eligibility-criteria">Eligibility Criteria & Selection Process</NavLink>
                 </li>
                 <li>
-                <NavLink href="/event-2">Event Two</NavLink>
+                    <NavLink href="/document-required">Documents Required</NavLink>
                 </li>
                 <li>
-                    <NavLink href="/event-3">Event Three</NavLink>
-                </li>
-                </ul> 
-            </li>
-            <li>
-                <NavLink href="/event/blockchain-symposium">Event Details</NavLink>
-            </li>
-            <li className="tl-dropdown-2">
-                <a>
-                Authentication <i className="fa-regular fa-angle-right"></i>
-                </a>
-
-                <ul className="tl-submenu tl-submenu-2">
-                <li>
-                    <NavLink href="/login">Login</NavLink>
+                    <NavLink href="/admission-policy">Admission Policy</NavLink>
                 </li>
                 <li>
-                <NavLink href="/register">Register</NavLink>
-                </li>
-                </ul>
-            </li>
-    </ul>   
-        </li> */}
-
-        <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
-            <a role="button">
-            Blog <i className="fa-regular fa-angle-down"></i>
-            </a>
-    {/*  <ul className="tl-submenu">
-            <li className="tl-dropdown-2">
-                <a>
-                Blog <i className="fa-regular fa-angle-right"></i>
-                </a>
-
-               <ul className="tl-submenu tl-submenu-2">
-                <li>
-                    <NavLink href="/blog">Blog One</NavLink>
+                    <NavLink href="/reservation-policy">Reservation Policy</NavLink>
                 </li>
                 <li>
-                    <NavLink href="/blog-2">Blog Two</NavLink>
+                    <NavLink href="/sgu-entrance">SGU Entrance Test</NavLink>
                 </li>
                 <li>
-                    <NavLink href="/blog-3">Blog Three</NavLink>
+                    <NavLink href="/contact-admission">Contact Admission & Marketing Cell</NavLink>
                 </li>
                 <li>
-                    <NavLink href="/blog-4">Blog Four</NavLink>
+                    <NavLink href="/assets/docs/admission-cutoff-23-24/admission-cutoff-23-24.pdf">Admission Cut Off 2023-2024</NavLink>
                 </li>
                 <li>
-                    <NavLink href="/blog-5">Blog Five</NavLink>
+                    <NavLink href="faq">FAQ's</NavLink>
                 </li>
-                <li>
-                    <NavLink href="/blog-6">Blog Six</NavLink>
-                </li>
-                <li>
-                    <NavLink href="/blog-7">Blog Seven</NavLink>
-                </li>
-        </ul>  
-            </li>
-            <li>
-                <NavLink href="/blog/lms-for-corporate-training-optimizing-employee-learning-and-development">Blog Details</NavLink>
-            </li>
-        </ul>  */}
+            </ul> 
         </li>
 
         <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
-            <a>
-            Contact <i className="fa-regular fa-angle-down"></i>
-            </a>
+            <a role="button">Academics <i className="fa-regular fa-angle-down"></i></a>
+             <ul className="tl-submenu">
+                <li>
+                    <NavLink href="/prospectus">Prospectus</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/aeronautical-dept-syllabus">Curriculum Structure and Syllabus</NavLink>
+                </li>
+            </ul>
+        </li>
 
-            <ul className="tl-submenu">
-           {/* <li>
-                <NavLink href="/contact">Contact One</NavLink>
-    </li>  */}
-            <li>
-                <NavLink href="/contact-2">Contact Us</NavLink>
-            </li>
-    </ul>   
+        <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
+            <a role="button">Courses <i className="fa-regular fa-angle-down"></i></a>
+             <ul className="tl-submenu">
+                <li>
+                    <NavLink href="/course-3">Courses</NavLink>
+                </li>
+            </ul> 
+        </li>
+
+      
+
+        <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
+            <a role="button">Blog <i className="fa-regular fa-angle-down"></i></a>
+        </li>
+
+        <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
+            <a>Contact <i className="fa-regular fa-angle-down"></i></a>
+                <ul className="tl-submenu">
+                    <li>
+                        <NavLink href="/contact-2">Contact Us</NavLink>
+                    </li>
+                </ul>   
         </li>
     </ul>
   )

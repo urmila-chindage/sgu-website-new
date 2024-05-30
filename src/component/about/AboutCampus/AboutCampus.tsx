@@ -88,37 +88,7 @@ const AboutCampus:React.FC<AboutProps> = ({padding,margin}) => {
                                 </div>
                             </Slider>
 
-                          {/*  <Slider 
-                            className="tl-7-about-info-cards-col tl-7-about-info-cards-col-2"
-                            {...settings}
-                            >
-                                <div className="slider-item">
-                                    <div className="tl-7-about-info-card">
-                                        <img src="assets/images/tl-7/about-2.jpg" alt="Dance Image"/>
-                                    </div>
-                                </div>
-
-                                <div className="slider-item">
-                                    <div className="tl-7-about-info-card tl-7-about-stat-card">
-                                        <img src="assets/images/tl-7/kb-about-stat-icon.png" alt="Icon"/>
-
-                                        <h6><span className="number">23<i className="fa-regular fa-sharp fa-plus"></i></span> years of experience</h6>
-                                    </div>
-                                </div>
-                                <div className="slider-item">
-                                    <div className="tl-7-about-info-card">
-                                        <img src="assets/images/tl-7/about-2.jpg" alt="Dance Image"/>
-                                    </div>
-                                </div>
-
-                                <div className="slider-item">
-                                    <div className="tl-7-about-info-card tl-7-about-stat-card">
-                                        <img src="assets/images/tl-7/kb-about-stat-icon.png" alt="Icon"/>
-
-                                        <h6><span className="number">23<i className="fa-regular fa-sharp fa-plus"></i></span> years of experience</h6>
-                                    </div>
-                                </div>
-                            </Slider>  */}
+                         
                         </div>
                     </div>
 
