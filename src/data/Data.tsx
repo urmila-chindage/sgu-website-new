@@ -2893,6 +2893,58 @@ const schoolsList = [
     desc : "B sc Food Science and Technology, B sc in Medical Laboratory Technology "
   }
   
+];
+const sguhighlightdata = [
+      {
+        id:0,
+        imgSrc:"assets/images/tl-10/scroll8.jpg",
+        title:"2 th Convocation Ceremony 2021"
+      },
+      {
+        id:1,
+        imgSrc:"assets/images/tl-10/scroll1.jpg",
+        title:"TATA Technology Competency Center"
+      },
+      {
+        id:2,
+        imgSrc:"assets/images/tl-10/scroll3.jpg",
+        title:"Bollywood Megastar Sara Ali Khan Visit"
+      },
+      {
+        id:3,
+        imgSrc:"assets/images/tl-10/scroll6.jpg",
+        title:"Reinventing India"
+      },
+      {
+        id:4,
+        imgSrc:"assets/images/tl-10/latest-image8.jpg",
+        title:"A Story of Grit and Determination"
+      },
+      {
+        id:5,
+        imgSrc:"assets/images/tl-10/scroll5.jpg",
+        title:"Asian Tennis Volleyball Championship"
+      },
+      {
+        id:6,
+        imgSrc:"assets/images/tl-10/scroll2.jpg",
+        title:"Sci - Star 2018"
+      },
+      {
+        id:7,
+        imgSrc:"assets/images/tl-10/scroll8.jpg",
+        title:"1 st Convocation Ceremony 2020"
+      },
+      {
+        id:8,
+        imgSrc:"assets/images/tl-10/scroll20.jpg",
+        title:"3 th Convocation Ceremony 2022"
+      },
+      {
+        id:9,
+        imgSrc:"assets/images/tl-10/scroll4.jpg",
+        title:"NCSAS 2019"
+      }
 ]
 
 export {
@@ -2914,5 +2966,6 @@ export {
   socialMediaData,
   categoriesData,
   articlesData,
-  schoolsList
+  schoolsList,
+  sguhighlightdata
 };

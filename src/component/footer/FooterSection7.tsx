@@ -20,7 +20,7 @@ const FooterSection7:React.FC<FooterProp> = ({logo, style, descStyle, socialStyl
                                         <img src={logo} alt="Logo"/>
                                     </Link>
 
-                                    <p className={descStyle}>Maurus herderite egret orca ac incident. Viramas at deque eu ipsum consenter commode egret t dam celestas beget mi.</p>
+                                    <p className={descStyle}>The Sanjay Ghodawat University stands as a beacon of light to guide the younger generation of the day on the right path to fulfilment in career and life.</p>
 
                                     <ul className={socialStyle}>
                                         <li><a href="#"><i className="fa-brands fa-twitter"></i></a></li>

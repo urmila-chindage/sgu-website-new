@@ -16,6 +16,7 @@ import VideoModal from '@/component/modal/VideoModal';
 import PricingSection3 from '@/component/pricing/PricingSection3';
 import TestimonialSection2 from '@/component/testimonial/TestimonialSection2';
 import Recruiters from '@/component/our-recruiters/Recruiters';
+import SguHIghlights from "@/component/Sgu-highlights/SguHIghlights";
 import SguVideo from '@/component/video-section/SguVideo';
 import { Metadata } from 'next';
 import React from 'react'
@@ -42,6 +43,7 @@ const Home10 = () => {
         <Collaborations/>
         <SchoolsSlider/>
         <Applyonline/>
+        <SguHIghlights/>
         <Management/>
         <CampusSection2 />
         <TestimonialSection2 />

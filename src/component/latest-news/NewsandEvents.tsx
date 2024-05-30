@@ -1,77 +1,39 @@
-'use client'
-import { blogList } from '@/data/Data';
-import Link from 'next/link';
-import React, { useRef } from 'react'
-import Slider from 'react-slick';
+import { blogList } from '@/data/Data'
+import Link from 'next/link'
+import React from 'react'
 
 const NewsandEvents = () => {
-    const sliderRef = useRef<Slider | null>(null);
-    const settings = {
-        slidesToShow: 3,
-        vertical: true,
-        arrows: false,
-        swipe: false,
-        autoplay: true,
-        speed: 1000,
-        infinite: true,
-    }
   return (
-    <section className="tl-12-blogs tl-11-section-spacing" data-background="assets/images/tl-12/blogs-bg.png">
+    <section className="tl-10-blog p-50">
         <div className="container">
-            <div className="row g-0 gy-4 justify-content-center">
-                <div className="col-xl-5 col-lg-10">
-                    <div className="tl-12-blogs-txt">
-                        <div className="tl-12-section-heading tl-12-blogs-heading">
-                            <h2 className="tl-12-section-title">Latest news / Events / Announcements</h2>
-                            <a href="#">View All News <i className="fa-regular fa-arrow-right-long"></i></a>
+            <div className="tl-10-blog-heading d-flex align-items-center justify-content-between">
+                <h2 className="tl-section-title tl-10-section-title">Our News & <span className="last-word">Blogs</span>.</h2>
+                <a href="#" className="tl-def-btn">Latest News <i className="fa-regular fa-arrow-right"></i></a>
+            </div>
+
+            <div className="tl-10-blog-inner-heading tl-blog-inner-heading">
+                <span className="tl-10-blog-inner-title">Latest Posts</span>
+                <span className="tl-10-blog-quantity">12</span>
+            </div>
+
+            <div className="row g-xl-4 g-3 justify-content-center justify-content-md-around">
+                {blogList.slice(4,7).map((item) => (
+                  <div className="col-lg-4 col-md-6 col-sm-10" key={item.id}>
+                    <div className="tl-single-blog tl-10-single-blog">
+                        <div className="tl-10-single-blog-img">
+                            <img src={item.imgSrc} alt="Blog Thumbnail"/>
                         </div>
 
-                        <div className="tl-12-blogs-slider-nav">
-                        <button 
-                        type="button" 
-                        className="tl-12-blog-nav-prev"
-                        onClick={() => sliderRef.current?.slickPrev()}
-                        >
-                            <i className="fa-light fa-arrow-up"></i>
-                        </button>
-
-                        <button 
-                        type="button" 
-                        className="tl-12-blog-nav-next"
-                        onClick={() => sliderRef.current?.slickNext()}
-                        >
-                            <i className="fa-light fa-arrow-down"></i>
-                        </button>
+                        <div className="tl-10-single-blog-txt">
+                            <span className="tl-single-blog-date tl-10-single-blog-date">{item.date}</span>
+                            <h4 className="tl-single-blog-title tl-10-single-blog-title"><Link href="#">{item.title}</Link></h4>
+                            <p className="tl-single-blog-descr tl-10-single-blog-descr">{item.desc.slice(0,80)}...</p>
+                            <Link className="tl-single-blog-btn tl-10-single-blog-btn" href={`/blog/${item.slug}`}>Read More <i className="fa-regular fa-arrow-right"></i></Link>
                         </div>
                     </div>
-                </div>
-
-                <div className="col-xl-7 col-lg-10">
-                    <Slider {...settings} className="tl-12-blogs-slider" ref={sliderRef}>
-                        {blogList.slice(4,10).map((item) => (
-                         <div className="tl-12-blogs-slide" key={item.id}>
-                            <div className="tl-3-single-blog tl-12-blog">
-                                <div className="tl-3-single-blog-img">
-                                    <div className="news-image"><img src={item.imgSrc} alt="Latest news Image" /></div>
-                                    <span className="tl-3-single-blog-tag">{item.category}</span>
-                                </div>
-
-                                <div className="tl-3-single-blog-txt">
-                                    <div className="tl-3-single-blog-info">
-                                        <div className="tl-3-single-blog-single-info">
-                                            <i className="fa-regular fa-clock"></i> {item.date}
-                                        </div>
-                                       
-                                    </div>
-                                    <h4 className="tl-3-single-blog-title"><Link href="#">{item.title}</Link></h4>
-                                    <p className="latest-news-desc">{item.desc}</p>
-                                    <Link href="#" className="tl-3-single-blog-btn">Read More <i className="fa-regular fa-arrow-right"></i></Link>
-                                </div>
-                            </div>
-                        </div>   
-                        ))}
-                    </Slider>
-                </div>
+                </div>  
+                ))}
+                
             </div>
         </div>
     </section>

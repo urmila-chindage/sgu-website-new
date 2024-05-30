@@ -70,7 +70,7 @@ const HeaderSection8: React.FC<HeaderProps> = ({
                     </button>
               </form>  */}
                   <Link href="/login" className={btnStyle}>
-                    <i className="fa-regular fa-user"></i> Login
+                     Admission Open
                   </Link>
                 </>
               ) : (
