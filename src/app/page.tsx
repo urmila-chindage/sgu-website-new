@@ -1,4 +1,4 @@
-import AboutSection from '@/component/about/About-us/AboutSection'
+import AboutSection from '@/component/leadership-section/AboutSection'
 import WhySGU from '@/component/why-sgu/WhySGU';
 import Tatatechnologies from '@/component/ties-up/Tatatechnologies';
 import SchoolsSlider from '@/component/schools/SchoolsSlider';

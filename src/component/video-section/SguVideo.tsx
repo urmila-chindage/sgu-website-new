@@ -7,8 +7,8 @@ const SguVideo = () => {
       <section className="tl-7-categories tl-7-section-spacing">
         <div className="container">
           <div className="tl-7-section-heading tl-7-categories-heading">
-            <h2 className="tl-7-section-title">
-              <span className="last-word">SGU Videos</span>.
+            <h2 className="tl-7-section-title">  
+            SGU <span className="last-word"> Videos</span>
             </h2>
           </div>
   

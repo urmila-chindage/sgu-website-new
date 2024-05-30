@@ -4012,6 +4012,7 @@ li.tl-nav-item.tl-9-nav-item.tl-dropdown > a:hover {
 }
 .tl-banner-txt {
   font-family: var(--roboto);
+  position:relative;
 }
 @media screen and (max-width: 767px) {
   .tl-banner-txt {
@@ -21626,7 +21627,7 @@ ul.tl-footer-links.tl-4-footer-links.tl-12-footer-links li a:hover {
   margin-bottom: 13px;
 }
 .tl-13-course-title {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 600;
   color: var(--black);

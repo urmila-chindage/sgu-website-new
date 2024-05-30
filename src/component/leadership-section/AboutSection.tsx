@@ -14,7 +14,7 @@ const AboutSection = () => {
 
           <div className="col-lg-6">
             <div className="tl-10-about-txt">
-              <h2 className="tl-section-title tl-10-about-title">
+              <h2 className="tl-section-title">
                 Leadership The Educupt Global{" "}
                 <span className="last-word">Education</span>.
               </h2>

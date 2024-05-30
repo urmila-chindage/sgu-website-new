@@ -7,7 +7,7 @@ const NewsandEvents = () => {
     <section className="tl-10-blog p-50">
         <div className="container">
             <div className="tl-10-blog-heading d-flex align-items-center justify-content-between">
-                <h2 className="tl-section-title tl-10-section-title">Our News & <span className="last-word">Blogs</span>.</h2>
+                <h2 className="tl-section-title tl-10-section-title">Latest news / Events / Announcements</h2>
                 <a href="#" className="tl-def-btn">Latest News <i className="fa-regular fa-arrow-right"></i></a>
             </div>
 
