@@ -26,7 +26,7 @@ const BPharmacy = () => {
              </tr>
              <tr>
                   <td><p>Final Year B_Pharm</p></td>
-                  <td><a rel="noopener noreferrer" target="_blank" href="/assets/docs/curriculum-and-syllabus/bpharmacy/04. Final Year Syllabus_ B_Pharm 23-24.pdf">Final Year B_Pharm <i className="fa-regular fa-arrow-right-long"></i></a></td>
+                  <td><a rel="noopener noreferrer" className="syllabus-link" target="_blank" href="/assets/docs/curriculum-and-syllabus/bpharmacy/04. Final Year Syllabus_ B_Pharm 23-24.pdf">Final Year B_Pharm <i className="fa-regular fa-arrow-right-long"></i></a></td>
              </tr>
               
           </tbody>

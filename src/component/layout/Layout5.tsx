@@ -10,8 +10,8 @@ const Layout5:React.FC<LayoutProps> = ({children}) => {
   return (
     <div className='tl-3-inner tl-inner-courses-body'>
       <HeaderSection8  style='tl-10-header'
-        darkLogo="assets/images/logos/sgulogo-new.jpg" 
-        lightLogo="assets/images/logos/sgulogo-new.jpg"
+        darkLogo="assets/images/logos/logo-banner-image.png" 
+        lightLogo="assets/images/logos/logo-banner-image.png"
         headerStyle=''
         btnStyle='tl-def-btn'
         loginBtn={true}/>

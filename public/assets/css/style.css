@@ -283,15 +283,18 @@ textarea::placeholder {
     width: 100%;
   }
 }
-
-.logo img {
+.footer-logo img{
   width:70px;
   height:70px;
 }
+.logo img {
+  /*  width:70px;
+  height:70px; */
+}
 @media screen and (max-width: 767px) {
   .logo img {
-    width:70px;
-    height:70px;
+  /*  width:70px;
+    height:70px;  */
   }
 }
 
@@ -1462,6 +1465,12 @@ textarea::placeholder {
 .mr-75 {
   margin-right: 75px;
 }
+.text-right{
+  text-align:right
+}
+.text-left{
+  text-align:left;
+}
 
 @media (min-width: 576px) {
   .mr-sm-5 {
@@ -1738,8 +1747,8 @@ textarea::placeholder {
 }
 
 .tl-def-btn-2 {
-  color: var(--tl-blue);
-  border-bottom: 1px solid var(--tl-blue);
+  color: var(--tl-btn-bg);
+  border-bottom: 1px solid var(--tl-btn-bg);
   font-weight: 600;
   padding-bottom: 5px;
 }
@@ -1752,7 +1761,7 @@ textarea::placeholder {
   transform: rotate(-45deg);
 }
 .tl-def-btn-2 i {
-  color: var(--tl-blue);
+  color: var(--tl-btn-bg);
   padding-left: 5px;
   transition: all 0.4s ease;
 }
@@ -3125,7 +3134,7 @@ button.tl-1-teachers-slider-dots.active {
 }
 
 .tl-3-inner {
-  background-color: rgba(79, 94, 199, 0.1);
+  background-color: var(--white)
 }
 .tl-inner-blogs.tl-inner-blogs-1 {
   background-color: var(--tl-1-bg-coffee);
@@ -8046,7 +8055,7 @@ li.tl-nav-item.tl-9-nav-item.tl-dropdown > a:hover {
   }
 }
 .tl-1-course-title a:hover {
-  color: var(--blue-2);
+  color: var(--black);
 }
 .tl-1-course-stats {
   display: flex;

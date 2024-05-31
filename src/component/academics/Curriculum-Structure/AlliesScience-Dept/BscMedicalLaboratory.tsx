@@ -26,7 +26,7 @@ const BscMedicalLaboratory = () => {
              </tr>
              <tr>
                   <td><p>MLT Minor Courses with syllabus</p></td>
-                  <td><a rel="noopener noreferrer" target="_blank" href="/assets/docs/curriculum-and-syllabus/allied-health-sciences/bsc-medical-laboratory/MLT Minor Courses with syllabus.pdf">MLT Minor Courses with syllabus <i className="fa-regular fa-arrow-right-long"></i></a></td>
+                  <td><a rel="noopener noreferrer" className="syllabus-link" target="_blank" href="/assets/docs/curriculum-and-syllabus/allied-health-sciences/bsc-medical-laboratory/MLT Minor Courses with syllabus.pdf">MLT Minor Courses with syllabus <i className="fa-regular fa-arrow-right-long"></i></a></td>
              </tr>
         </tbody>
       </Table>

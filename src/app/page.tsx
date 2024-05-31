@@ -29,8 +29,8 @@ const Home10 = () => {
     <div className='home-10'>
         <HeaderSection8 
         style='tl-10-header'
-        darkLogo="assets/images/logos/sgulogo-new.jpg" 
-        lightLogo="assets/images/logos/sgulogo-new.jpg"
+        darkLogo="assets/images/logos/logo-banner-image.png" 
+        lightLogo="assets/images/logos/logo-banner-image.png"
         headerStyle=''
         btnStyle='tl-def-btn'
         loginBtn={true}

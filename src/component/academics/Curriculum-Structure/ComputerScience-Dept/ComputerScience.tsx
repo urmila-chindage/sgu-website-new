@@ -26,7 +26,7 @@ const ComputerScience = () => {
              </tr>
              <tr>
                   <td><p>Final Year B. Tech CSE</p></td>
-                  <td><a rel="noopener noreferrer" target="_blank" href="/assets/docs/curriculum-and-syllabus/computer-science/Final Year B. Tech CSE.pdf">Final Year B. Tech CSE <i className="fa-regular fa-arrow-right-long"></i></a></td>
+                  <td><a rel="noopener noreferrer" className="syllabus-link" target="_blank" href="/assets/docs/curriculum-and-syllabus/computer-science/Final Year B. Tech CSE.pdf">Final Year B. Tech CSE <i className="fa-regular fa-arrow-right-long"></i></a></td>
              </tr>
               
           </tbody>

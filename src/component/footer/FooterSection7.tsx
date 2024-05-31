@@ -16,7 +16,7 @@ const FooterSection7:React.FC<FooterProp> = ({logo, style, descStyle, socialStyl
                         <div className="row gy-5 justify-content-between">
                             <div className="col-md-5 col-sm-6 col-12">
                                 <div className="tl-footer-widget">
-                                    <Link href="/" className="logo">
+                                    <Link href="/" className="footer-logo">
                                         <img src={logo} alt="Logo"/>
                                     </Link>
 

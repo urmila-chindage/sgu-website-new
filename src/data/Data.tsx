@@ -2931,7 +2931,7 @@ const sguhighlightdata = [
         id:4,
         imgSrc:"assets/images/tl-10/latest-image8.jpg",
         title:"A Story of Grit and Determination",
-        slug:"assets/docs/sgu-highlights/forbs-artical.pdf"
+        slug:"assets/docs/sgu-highlights/forbes-artical.pdf"
       },
       {
         id:5,

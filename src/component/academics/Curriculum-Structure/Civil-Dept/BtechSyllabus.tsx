@@ -18,7 +18,7 @@ const BtechSyllabus = () => {
              </tr>
              <tr>
                   <td><p>TY_Civil_Structure and Syllabus</p></td>
-                  <td><a rel="noopener noreferrer" className="syllabus-link" target="_blank" href="/assets/docs/curriculum-and-syllabus/aeronautical/btech-syllabus/TY_Civil_Full.pdf">sTY_Civil_Structure and Syllabus <i className="fa-regular fa-arrow-right-long"></i></a></td>
+                  <td><a rel="noopener noreferrer" className="syllabus-link" target="_blank" href="/assets/docs/curriculum-and-syllabus/aeronautical/btech-syllabus/TY_Civil_Full.pdf">TY_Civil_Structure and Syllabus <i className="fa-regular fa-arrow-right-long"></i></a></td>
              </tr>
              <tr>
                   <td><p>Minor_Civil</p></td>

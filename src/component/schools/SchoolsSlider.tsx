@@ -62,7 +62,7 @@ const SchoolsSlider = () => {
                                 <span className="tl-8-service-order-numb">{item.schoolsubdept}</span>
                             </div>
 
-                            <h4 className="tl-1-service-title tl-2-service-title"><a href="#">{item.schoolsdept}</a></h4>
+                            <h4 className="tl-1-service-title tl-2-service-title"><a href={item.slug} target="_blank">{item.schoolsdept}</a></h4>
                             <p className="tl-1-service-descr tl-2-service-descr">{item.desc}</p>
                             <a href={item.slug} className="tl-2-blog-btn" target="_blank"><span className="tl-2-blog-btn-icon"><i className="fa-regular fa-arrow-up-right"></i></span> read more</a>
                         </SwiperSlide>  

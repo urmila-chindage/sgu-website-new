@@ -26,7 +26,7 @@ const BtechSyllabus = () => {
              </tr>
              <tr>
                   <td><p>Minor_Aero</p></td>
-                  <td><a rel="noopener noreferrer" target="_blank" href="/assets/docs/curriculum-and-syllabus/aeronautical/btech-syllabus/SECOND YEAR MINOR SYLLABUS 2024-2025.pdf">Minor_Aero_Structure and Syllabus <i className="fa-regular fa-arrow-right-long"></i></a></td>
+                  <td><a rel="noopener noreferrer" className="syllabus-link" target="_blank" href="/assets/docs/curriculum-and-syllabus/aeronautical/btech-syllabus/SECOND YEAR MINOR SYLLABUS 2024-2025.pdf">Minor_Aero_Structure and Syllabus <i className="fa-regular fa-arrow-right-long"></i></a></td>
              </tr>
               
           </tbody>

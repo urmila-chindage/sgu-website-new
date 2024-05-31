@@ -18,7 +18,7 @@ const MtechSyllabus = () => {
              </tr>
              <tr>
                   <td><p>Second Year</p></td>
-                  <td><a rel="noopener noreferrer" target="_blank" href="/assets/docs/curriculum-and-syllabus/aeronautical/mtech-syllabus/SECOND YEAR M.Tech  SYLLABUS 2024-2025.pdf">TY_Aero_Structure and Syllabus <i className="fa-regular fa-arrow-right-long"></i></a></td>
+                  <td><a rel="noopener noreferrer" className="syllabus-link" target="_blank" href="/assets/docs/curriculum-and-syllabus/aeronautical/mtech-syllabus/SECOND YEAR M.Tech  SYLLABUS 2024-2025.pdf">TY_Aero_Structure and Syllabus <i className="fa-regular fa-arrow-right-long"></i></a></td>
              </tr>
             
           </tbody>
