@@ -15,7 +15,8 @@ const HeaderLogoSection = () => {
              
               <div className="d-lg-none d-flex justify-content-end col-6">
                 <div className="col-lg-6">
-                    
+                    <img src="aseets/images/logos/logo-banner-image.png" />
+                    <p>sfdfdgf</p>
                 </div>
               </div>
             </div>

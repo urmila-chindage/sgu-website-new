@@ -1,5 +1,6 @@
 import React from 'react'
 import HeaderSection5 from '../header/HeaderSection5';
+import HeaderSection8 from '../header/HeaderSection8';
 import FooterSection7 from '../footer/FooterSection7';
 
 interface LayoutProps {
@@ -8,7 +9,12 @@ interface LayoutProps {
 const Layout5:React.FC<LayoutProps> = ({children}) => {
   return (
     <div className='tl-3-inner tl-inner-courses-body'>
-      <HeaderSection5 style='position-relative' logo="/assets/images/logos/sgulogo.jpg"/>
+      <HeaderSection8  style='tl-10-header'
+        darkLogo="assets/images/logos/sgulogo-new.jpg" 
+        lightLogo="assets/images/logos/sgulogo-new.jpg"
+        headerStyle=''
+        btnStyle='tl-def-btn'
+        loginBtn={true}/>
       {children}
       <FooterSection7 
       logo="assets/images/logos/sgulogo.jpg"

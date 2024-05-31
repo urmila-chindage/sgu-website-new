@@ -26,7 +26,7 @@ const NewsandEvents = () => {
 
                         <div className="tl-10-single-blog-txt">
                             <span className="tl-single-blog-date tl-10-single-blog-date">{item.date}</span>
-                            <h4 className="tl-single-blog-title tl-10-single-blog-title"><Link href="#">{item.title}</Link></h4>
+                            <h4 className="tl-single-blog-title tl-10-single-blog-title"><Link href={item.slug} target="_blank">{item.title}</Link></h4>
                             <p className="tl-single-blog-descr tl-10-single-blog-descr">{item.desc.slice(0,80)}...</p>
                             <Link className="tl-single-blog-btn tl-10-single-blog-btn" href={item.slug} target="_blank">Read More <i className="fa-regular fa-arrow-right"></i></Link>
                         </div>

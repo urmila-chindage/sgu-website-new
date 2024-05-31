@@ -3163,7 +3163,7 @@ button.tl-1-teachers-slider-dots.active {
 /* ----- 04. Header ----- */
 .tl-header {
   position: relative;
-  padding: 20px 0;
+  padding: 20px 0px;
 }
 @media screen and (max-width: 1199px) {
   .tl-header {
@@ -26545,4 +26545,10 @@ table.governing-table a{
 }
  .tl-banner-cards{
     position:relative;
+    background-color:#bcbcbc;
 } 
+.banner-bg{
+  background-color:#FFFBDB;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}

@@ -27,7 +27,25 @@ const HeaderSection8: React.FC<HeaderProps> = ({
         isHeaderFixed ? "sticky" : ""
       } ${style}`}
     >
+     {/*  <div className="container-fluid banner-bg">
+        <div className="container">
+      <div className="row gy-5 align-items-center">
+           <div className="col-lg-6 ">
+           <Link href="/">
+              <img src="assets/images/logos/logo-banner-image.png"/>
+            </Link>
+           </div>
+           
+           <div className="col-lg-6">
+           <Link href="/">
+              <img src="assets/images/logos/logo-banner.jpg"/>
+            </Link>
+           </div>
+        </div>
+        </div>
+    </div>  */}
       <div className="container">
+       
         <div className="row g-0 align-items-center">
           <div className="col-xl-2 col-lg-2">
             <div className="row align-items-center">
@@ -51,8 +69,7 @@ const HeaderSection8: React.FC<HeaderProps> = ({
 
           <div className="col-7">
             <div className="tl-nav-menu">
-              <HeaderLogoSection/>
-              <NavSection ulPosition="" liStyle="" />
+               <NavSection ulPosition="" liStyle="" />
             </div>
           </div>
 
