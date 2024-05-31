@@ -20,7 +20,7 @@ const Collaborations = () => {
                                        SGU has collaborations with Foreign Universities, Industries .....
                                     </h6>
                                  </div>
-                                 <h3 className="tl-3-single-event-title"><Link href="#">Collaborations</Link></h3>
+                                 <h3 className="tl-3-single-event-title"><Link href="https://www.sanjayghodawatuniversity.ac.in/collaboration-foreignUni.php" target="_blank">Collaborations</Link></h3>
                             </div>
                         </div>
                     </div> 
@@ -36,7 +36,7 @@ const Collaborations = () => {
                                        Student have the flexibility to pursue
                                     </h6>
                                  </div>
-                                 <h3 className="tl-3-single-event-title"><Link href="#">Credit Based Evaluation (CBE) System</Link></h3>
+                                 <h3 className="tl-3-single-event-title"><Link href="https://www.sanjayghodawatuniversity.ac.in/cbe-system.php" target="_blank">Credit Based Evaluation (CBE) System</Link></h3>
                             </div>
                         </div>
                     </div> 
@@ -52,7 +52,7 @@ const Collaborations = () => {
                                           Industry Oriented Programmes for job opportunities
                                     </h6>
                                  </div>
-                                 <h3 className="tl-3-single-event-title"><Link href="#">Job Oriented Programmes</Link></h3>
+                                 <h3 className="tl-3-single-event-title"><Link href="https://www.sanjayghodawatuniversity.ac.in/programme-ST.php" target="_blank">Job Oriented Programmes</Link></h3>
                             </div>
                         </div>
                     </div> 
@@ -68,7 +68,7 @@ const Collaborations = () => {
                                           Best Practices in Teaching - Learning
                                     </h6>
                                  </div>
-                                 <h3 className="tl-3-single-event-title"><Link href="#">Outcome Based Education (OBE) System</Link></h3>
+                                 <h3 className="tl-3-single-event-title"><Link href="https://www.sanjayghodawatuniversity.ac.in/obe-system.php" target="_blank">Outcome Based Education (OBE) System</Link></h3>
                             </div>
                         </div>
                     </div>    

@@ -24,9 +24,10 @@ const HeaderSection5:React.FC<HeaderProps> = ({style, logo}) => {
 
                 <div className="col-lg-4">
                     <ul className="tl-8-top-header-socials">
-                        <li><a href="#"><i className="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://twitter.com/SGUniversityKop" target="_blank"><i className="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="https://www.facebook.com/SGUniversityKolhapur" target="_blank"><i className="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=dia-Km9XXP4" target="_blank"><i className="fa-brands fa-square-youtube"></i></a></li>
+                                        <li><a href="https://www.sanjayghodawatuniversity.ac.in/sgu-exam" target="_blank"><i className="fa-brands fa-square-google-plus"></i></a></li>
                     </ul>
                 </div>
             </div>

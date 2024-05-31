@@ -8,7 +8,7 @@ const NewsandEvents = () => {
         <div className="container">
             <div className="tl-10-blog-heading d-flex align-items-center justify-content-between">
                 <h2 className="tl-section-title tl-10-section-title">Latest news / Events / Announcements</h2>
-                <a href="#" className="tl-def-btn">Latest News <i className="fa-regular fa-arrow-right"></i></a>
+                <a href="https://www.sanjayghodawatuniversity.ac.in/announcements.php" target="_blank" className="tl-def-btn">Latest News <i className="fa-regular fa-arrow-right"></i></a>
             </div>
 
             <div className="tl-10-blog-inner-heading tl-blog-inner-heading">
@@ -28,7 +28,7 @@ const NewsandEvents = () => {
                             <span className="tl-single-blog-date tl-10-single-blog-date">{item.date}</span>
                             <h4 className="tl-single-blog-title tl-10-single-blog-title"><Link href="#">{item.title}</Link></h4>
                             <p className="tl-single-blog-descr tl-10-single-blog-descr">{item.desc.slice(0,80)}...</p>
-                            <Link className="tl-single-blog-btn tl-10-single-blog-btn" href={`/blog/${item.slug}`}>Read More <i className="fa-regular fa-arrow-right"></i></Link>
+                            <Link className="tl-single-blog-btn tl-10-single-blog-btn" href={item.slug} target="_blank">Read More <i className="fa-regular fa-arrow-right"></i></Link>
                         </div>
                     </div>
                 </div>  

@@ -9,7 +9,7 @@ const AboutUniversity = () => {
                 <div className="col-xl-4 col-lg-4">
                     <div className="tl-8-about-img">
                         <img src="assets/images/tl-8/about-university.jpg" alt="Driving Image" className="tl-8-about-main-img"/>
-                        <img src="assets/images/tl-8/sticker.png" alt="sticker" className="tl-8-about-sticker"/>
+                         {/* <img src="assets/images/tl-8/sticker.png" alt="sticker" className="tl-8-about-sticker"/> */}
                     </div>
                 </div>
 

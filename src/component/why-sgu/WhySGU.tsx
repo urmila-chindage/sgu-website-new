@@ -9,7 +9,7 @@ const WhySGU = () => {
                 <div className="col-lg-6">
                     <div className="tl-1-about-img">
                         <img src="assets/images/about-us/aboutus-new.jpg" alt="About SGU" className="tl-1-about-main-img"/>
-                        <img src="assets/images/tl-1/sticker.png" alt="sticker" className="tl-1-about-sticker"/>  
+                        {/* <img src="assets/images/tl-1/sticker.png" alt="sticker" className="tl-1-about-sticker"/>   */} 
                     </div>
                 </div>
 
@@ -21,7 +21,7 @@ const WhySGU = () => {
                         <div className="tl-1-about-author">
                             <div className="tl-1-about-author-intro">
                                 <h4 className="tl-1-course-title">
-                                    <Link href="/about-university" className="tl-def-btn"> Read More </Link>
+                                    <Link href="/about-university" className="tl-def-btn" target="_blank">Read More</Link>
                                 </h4>
                                
                             </div>

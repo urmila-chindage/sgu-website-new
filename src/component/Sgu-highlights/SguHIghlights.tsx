@@ -66,8 +66,8 @@ const SguHighlights = () => {
                 {sguhighlightdata.slice(0,6).map((item) => (
                  <SwiperSlide className="tl-9-class tl-13-course" key={item.id}>
                     <img src={item.imgSrc} alt="class image" className="tl-9-class-img"/>
-                     <h3 className="tl-13-course-title"><Link href="#">{item.title}</Link></h3>
-                    <Link href="#" className="tl-9-program-btn"><i className="fa-regular fa-arrow-right-long"></i></Link>
+                     <h3 className="tl-13-course-title"><Link href={item.slug} target="_blank">{item.title}</Link></h3>
+                    <Link href={item.slug} target="_blank" className="tl-9-program-btn"><i className="fa-regular fa-arrow-right-long"></i></Link>
                 </SwiperSlide>   
                 ))}
                 

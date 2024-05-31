@@ -2905,7 +2905,7 @@ button.tl-1-teachers-slider-dots.active {
   position: relative;
   isolation: isolate;
   z-index: 1;
-  background: url(../images/breadcrumb-bg.png) no-repeat bottom center;
+  background: url(../images/breadcrumbe-image/breadcrumbe-image.jpg) no-repeat bottom center;
   background-size: cover;
   background-color: var(--black-5);
 }
@@ -2950,6 +2950,7 @@ button.tl-1-teachers-slider-dots.active {
   font-size: 40px;
   font-weight: 700;
   text-transform: capitalize;
+  position:relative;
 }
 @media screen and (max-width: 1399px) {
   .tl-breadcrumb-title {
@@ -3989,6 +3990,23 @@ li.tl-nav-item.tl-9-nav-item.tl-dropdown > a:hover {
   z-index: 0;
   opacity: 0.5;
   background: url(../images/banner-image/banner-image-new.jpg) no-repeat center center;
+  background-size: cover;
+}
+.tl-breadcrumb-image{
+  position: relative;
+  background-color: #000;
+}
+.tl-breadcrumb-image::before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+  background: url(../images/breadcrumbe-image/breadcrumbe-image.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -15388,7 +15406,7 @@ section.tl-6-membership.tl-9-membership .container {
   color: var(--black);
 }
 .tl-6-footer-socials a:hover {
-  background-color: var(--red-2);
+  background-color: var(--tl-btn-bg);
   color: var(--white);
 }
 .tl-6-footer-map-btn {
@@ -15396,7 +15414,7 @@ section.tl-6-membership.tl-9-membership .container {
   padding: 12px 20px;
 }
 .tl-6-footer .tl-footer-links a:hover {
-  color: var(--red-2);
+  color: var(--tl-btn-bg);
 }
 
 .tl-7-footer {
@@ -24547,7 +24565,7 @@ footer.tl-footer.tl-14-footer.tl-1-footer {
 }
 .dark_mode .tl-6-footer-socials a:hover {
   color: var(--white);
-  background-color: var(--red);
+  background-color: var(--tl-btn-bg);
 }
 .dark_mode .tl-long-arrow-btn .arrow {
   background-color: var(--white);

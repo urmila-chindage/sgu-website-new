@@ -1614,7 +1614,7 @@ const blogList = [
     author: "David Brown",
     category: "Latest News",
     desc: "Chairman Sanjay ji Ghodawat receives Navbharat Times Scroll of Honour Award 2023  by the hands of Hon'ble Deputy CM Devendra Fadanvis for contributing in  making  Maharashtra's  Economy number one in the country",
-    slug: "news-and-events",
+    slug: "assets/docs/latest-news-docs/devendra-fadnvish-award.jpeg",
   },
   {
     id: 5,
@@ -1624,26 +1624,26 @@ const blogList = [
     author: "Emily Wilson",
     category: "Latest News",
     desc: "Congratulations Chairman Sanjay ji Ghodawat receives Singhania Lifetime Achievement Award by the hands of Hon'ble Minister of Marathi Language and School Education Deepak ji  Kesarkar",
-    slug: "news-and-events",
+    slug: "assets/docs/latest-news-docs/singhania-award.jpeg",
   },
   {
     id: 6,
-    imgSrc: "assets/images/latest-news/latest-image1.jpg",
-    date: "April 6, 2023",
-    title: "News And Event",
-    author: "George Anderson",
-    category: "Latest News",
-    desc: "Greetings from Sanjay Ghodawat University (SGU)  Kolhapur...! We, SGU's Faculty of Commerce and Management* cordially invites you to participate in Five Days Online Faculty Development Program (FDP) on NEP 2020 - Paradigm Shift in Asynchronous Learning and Industry- Academic Research Collaboration.Let us hear from renowned speakers and pave our journey for effective implementation of National Education Policy-2020.",
-    slug: "news-and-events",
-  },
-  {
-    id: 7,
     imgSrc: "assets/images/latest-news/latest-image10.jpg",
     date: "April 7, 2023",
     title: "News And Event",
     author: "Hannah Davis",
     category: "Latest News",
     desc: "Proud moment for Sanjay Ghodawat University as Indian Star Woman Cricketer and Vice Captain, Smriti Mandhana has taken admission in our University for B. Com course. It is indeed a great news for SGU! Congratulations Team SGU and Smriti",
+    slug: "assets/docs/latest-news-docs/smithi-mandana.jpg",
+  },
+  {
+    id: 7,
+    imgSrc: "assets/images/latest-news/latest-image1.jpg",
+    date: "April 6, 2023",
+    title: "News And Event",
+    author: "George Anderson",
+    category: "Latest News",
+    desc: "Greetings from Sanjay Ghodawat University (SGU)  Kolhapur...! We, SGU's Faculty of Commerce and Management* cordially invites you to participate in Five Days Online Faculty Development Program (FDP) on NEP 2020 - Paradigm Shift in Asynchronous Learning and Industry- Academic Research Collaboration.Let us hear from renowned speakers and pave our journey for effective implementation of National Education Policy-2020.",
     slug: "news-and-events",
   },
   {
@@ -2848,49 +2848,57 @@ const schoolsList = [
     id:0,
     schoolsdept :"School of  Design",
     schoolsubdept : "UG" ,
-    desc : "Bachelor of  Design"
+    desc : "Bachelor of  Design",
+    slug: "https://www.sanjayghodawatuniversity.ac.in/dept-design.php",
   },
   {
     id:1,
     schoolsdept :"School of Commerce & Management",
     schoolsubdept : "UG, PG, Ph.D." ,
-    desc : "UG, PG, Ph.D. Programmes in Management."
+    desc : "UG, PG, Ph.D. Programmes in Management.",
+    slug:"https://www.sanjayghodawatuniversity.ac.in/school-commerce-management.php"
   },
   {
     id:2,
     schoolsdept :"School of Science",
     schoolsubdept : "UG, PG, Ph.D." ,
-    desc : "B.Sc., M.Sc., Ph.D. in Physics, Chemistry, Mathematics"
+    desc : "B.Sc., M.Sc., Ph.D. in Physics, Chemistry, Mathematics",
+    slug:"https://www.sanjayghodawatuniversity.ac.in/school-science.php"
   },
   {
     id:3,
     schoolsdept :"School of Liberal Art",
     schoolsubdept : "UG, PG, Ph.D." ,
-    desc : "BA, Ph.D. in English, Journalism & Mass Communication"
+    desc : "BA, Ph.D. in English, Journalism & Mass Communication",
+    slug:"https://www.sanjayghodawatuniversity.ac.in/school-liberal-arts.php"
   },
   {
     id:4,
     schoolsdept :"School of Pharmaceutical Sciences",
     schoolsubdept : "Diploma, UG" ,
-    desc : "D.Pharmacy, B.Pharmacy"
+    desc : "D.Pharmacy, B.Pharmacy",
+    slug:"https://www.sanjayghodawatuniversity.ac.in/school-pharmacy.php"
   },
   {
     id:5,
     schoolsdept :"School of Computer Science & Applications",
     schoolsubdept : "UG, PG" ,
-    desc : "B.C.A., M.C.A."
+    desc : "B.C.A., M.C.A.",
+    slug:"https://www.sanjayghodawatuniversity.ac.in/dept-csa.php"
   },
   {
     id:6,
     schoolsdept :"School of Legal Studies (Law)",
     schoolsubdept : "UG" ,
-    desc : "B.A.L.L.B(Hons.),B.B.A.L.L.B (Hons.),L.L.B"
+    desc : "B.A.L.L.B(Hons.),B.B.A.L.L.B (Hons.),L.L.B",
+    slug:"https://www.sanjayghodawatuniversity.ac.in/dept-law.php"
   },
   {
-    id:6,
+    id:7,
     schoolsdept :"School of Allied Health Sciences",
     schoolsubdept : "UG" ,
-    desc : "B sc Food Science and Technology, B sc in Medical Laboratory Technology "
+    desc : "B sc Food Science and Technology, B sc in Medical Laboratory Technology",
+    slug:"https://www.sanjayghodawatuniversity.ac.in/dept-Allied.php"
   }
   
 ];
@@ -2898,52 +2906,62 @@ const sguhighlightdata = [
       {
         id:0,
         imgSrc:"assets/images/tl-10/scroll8.jpg",
-        title:"2 th Convocation Ceremony 2021"
+        title:"2 th Convocation Ceremony 2021",
+        slug:"https://www.sanjayghodawatuniversity.ac.in/convocation.php?year=2021"
       },
       {
         id:1,
         imgSrc:"assets/images/tl-10/scroll1.jpg",
-        title:"TATA Technology Competency Center"
+        title:"TATA Technology Competency Center",
+        slug:"https://www.sanjayghodawatuniversity.ac.in/inauguration-tcc-tata.php"
       },
       {
         id:2,
         imgSrc:"assets/images/tl-10/scroll3.jpg",
-        title:"Bollywood Megastar Sara Ali Khan Visit"
+        title:"Bollywood Megastar Sara Ali Khan Visit",
+        slug:"https://www.sanjayghodawatuniversity.ac.in/visit-saraalikhan.php"
       },
       {
         id:3,
         imgSrc:"assets/images/tl-10/scroll6.jpg",
-        title:"Reinventing India"
+        title:"Reinventing India",
+        slug:"https://www.sanjayghodawatuniversity.ac.in/reinventing-india-event.php"
       },
       {
         id:4,
         imgSrc:"assets/images/tl-10/latest-image8.jpg",
-        title:"A Story of Grit and Determination"
+        title:"A Story of Grit and Determination",
+        slug:"assets/docs/sgu-highlights/forbs-artical.pdf"
       },
       {
         id:5,
         imgSrc:"assets/images/tl-10/scroll5.jpg",
-        title:"Asian Tennis Volleyball Championship"
+        title:"Asian Tennis Volleyball Championship",
+        slug:"assets/docs/sgu-highlights/shubham-kore-championship.pdf"
       },
       {
         id:6,
         imgSrc:"assets/images/tl-10/scroll2.jpg",
-        title:"Sci - Star 2018"
+        title:"Sci - Star 2018",
+        slug:"https://www.sanjayghodawatuniversity.ac.in/scistar2018.php"
       },
       {
         id:7,
         imgSrc:"assets/images/tl-10/scroll8.jpg",
-        title:"1 st Convocation Ceremony 2020"
+        title:"1 st Convocation Ceremony 2020",
+        slug:"https://www.sanjayghodawatuniversity.ac.in/convocation.php?year=2020"
       },
       {
         id:8,
         imgSrc:"assets/images/tl-10/scroll20.jpg",
-        title:"3 th Convocation Ceremony 2022"
+        title:"3 th Convocation Ceremony 2022",
+        slug:"https://www.sanjayghodawatuniversity.ac.in/convocation.php?year=2022"
       },
       {
         id:9,
         imgSrc:"assets/images/tl-10/scroll4.jpg",
-        title:"NCSAS 2019"
+        title:"NCSAS 2019",
+        slug:"https://www.sanjayghodawatuniversity.ac.in/conference/ncsas2019.php"
       }
 ]
 

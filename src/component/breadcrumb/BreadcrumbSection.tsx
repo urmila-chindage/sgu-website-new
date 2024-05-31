@@ -6,7 +6,7 @@ interface BreadcrumbSectionProps {
 }
 const BreadcrumbSection:React.FC<BreadcrumbSectionProps> = ({title,style}) => {
   return (
-    <div className={`tl-breadcrumb ${style} pt-120 pb-120`}>
+    <div className={`tl-breadcrumb-image ${style} pt-120 pb-120`}>
         <div className="container">
             <div className="row align-items-end">
                 <div className="col-md-6">
@@ -15,7 +15,7 @@ const BreadcrumbSection:React.FC<BreadcrumbSectionProps> = ({title,style}) => {
                     </div>
                 </div>
 
-                <div className="col-md-6">
+               {/*  <div className="col-md-6">
                     <ul className="tl-breadcrumb-nav d-flex">
                         <li><Link href="/">Home</Link></li>
                         <li className="current-page">
@@ -25,7 +25,7 @@ const BreadcrumbSection:React.FC<BreadcrumbSectionProps> = ({title,style}) => {
                             </span>
                         </li>
                     </ul>
-                </div>
+                  </div>  */}
             </div>
         </div>
     </div>

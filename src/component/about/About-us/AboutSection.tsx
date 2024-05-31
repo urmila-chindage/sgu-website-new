@@ -24,7 +24,7 @@ const AboutSection = () => {
                 injected randomised words which don't look even slightly
                 believable.
               </p>
-              <a href="#" className="tl-def-btn-2">
+              <a href="/about-university" target="_blank" className="tl-def-btn-2">
                 University Overview{" "}
                 <i className="fa-regular fa-arrow-right"></i>
               </a>

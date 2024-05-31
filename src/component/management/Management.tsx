@@ -17,7 +17,7 @@ const Management = () => {
                     </div>
 
                     <div className="tl-3-single-staff-txt tl-8-single-expert-txt">
-                        <h5 className="tl-8-single-expert-name"><Link href="/president">Mr. Sanjay Ghodawat</Link></h5>
+                        <h5 className="tl-8-single-expert-name"><Link href="/president" target="_blank">Mr. Sanjay Ghodawat</Link></h5>
                         <span className="tl-8-single-expert-role">President</span>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const Management = () => {
                     </div>
 
                     <div className="tl-3-single-staff-txt tl-8-single-expert-txt">
-                        <h5 className="tl-8-single-expert-name"><Link href="/secretary">Mr. Shrenik Ghodawat</Link></h5>
+                        <h5 className="tl-8-single-expert-name"><Link href="/secretary" target="_blank">Mr. Shrenik Ghodawat</Link></h5>
                         <span className="tl-8-single-expert-role">Secretary</span>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Management = () => {
                     </div>
 
                     <div className="tl-3-single-staff-txt tl-8-single-expert-txt">
-                        <h5 className="tl-8-single-expert-name"><Link href="/trustee">Mr. Vinayak V Bhosale</Link></h5>
+                        <h5 className="tl-8-single-expert-name"><Link href="/trustee" target="_blank">Mr. Vinayak V Bhosale</Link></h5>
                         <span className="tl-8-single-expert-role">Trustee</span>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const Management = () => {
                     </div>
 
                     <div className="tl-3-single-staff-txt tl-8-single-expert-txt">
-                        <h5 className="tl-8-single-expert-name"><Link href="/vice-chancellor">Dr. Udhav Bhosle</Link></h5>
+                        <h5 className="tl-8-single-expert-name"><Link href="/vice-chancellor" target="_blank">Dr. Udhav Bhosle</Link></h5>
                         <span className="tl-8-single-expert-role">Vice Chancellor</span>
                     </div>
                 </div>

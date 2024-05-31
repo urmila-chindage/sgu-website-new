@@ -12,7 +12,7 @@ const BannerSection9 = () => {
                     <div className="tl-banner-txt">
                         <h1 className="tl-banner-title">Let’s Build Your Future With <span className="last-word">SGU</span>.</h1>
                         <p className="tl-banner-short-descr">Through a combination of lectures, readings, and discussions, students will gain a solid foundation in educational psychology.</p>
-                        <a href="#" className="tl-def-btn">More details <i className="fa-regular fa-arrow-right-long"></i></a>
+                        <a href="https://www.sanjayghodawatuniversity.ac.in/admission-enquiry.php" target="_blank" className="tl-def-btn">More details <i className="fa-regular fa-arrow-right-long"></i></a>
                     </div>
                 </div>
 
@@ -34,25 +34,25 @@ const BannerSection9 = () => {
                 <div className="col-md-3 col-6 col-xxs-12">
                     <div className="tl-banner-single-card">
                         <h5 className="single-card-title">Admission Enquiry 2024-2025</h5>
-                        <a href="#" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
+                        <a href="https://www.sanjayghodawatuniversity.ac.in/admission-enquiry.php" target="_blank" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div className="col-md-3 col-6 col-xxs-12">
                     <div className="tl-banner-single-card tl-banner-single-card-2">
                         <h5 className="single-card-title">For Admission </h5>
-                        <a href="#" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
+                        <a href="https://sguportal.core-campus.in/#/login-form?enquiry=Y" target="_blank" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div className="col-md-3 col-6 col-xxs-12">
                     <div className="tl-banner-single-card tl-banner-single-card-3">
                         <h5 className="single-card-title">Download Catalogue </h5>
-                        <a href="#" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
+                        <a href="assets/docs/sgu-brochure/brochure.pdf" target="_blank" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div className="col-md-3 col-6 col-xxs-12">
                     <div className="tl-banner-single-card tl-banner-single-card-4">
                         <h5 className="single-card-title">More About SGU</h5>
-                        <a href="#" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
+                        <a href="/about-university" target="_blank" className="single-card-action">Learn more <i className="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const AboutSGGroup = () => {
                 <div className="col-xl-5 col-lg-5">
                     <div className="tl-8-about-img">
                         <img src="assets/images/tl-8/sggroup.jpg" alt="Driving Image" className="tl-8-about-main-img"/>
-                        <img src="assets/images/tl-8/sticker.png" alt="sticker" className="tl-8-about-sticker"/>
+                        {/* <img src="assets/images/tl-8/sticker.png" alt="sticker" className="tl-8-about-sticker"/> */}
                     </div>
                 </div>
 

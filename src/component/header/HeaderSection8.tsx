@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import NavSection from "../navigation/NavSection";
 import { useTalimContext } from "@/context/TalimContext";
+import HeaderLogoSection from "./HeaderLogoSection";
 interface HeaderProps {
   style: string;
   lightLogo: string;
@@ -50,6 +51,7 @@ const HeaderSection8: React.FC<HeaderProps> = ({
 
           <div className="col-7">
             <div className="tl-nav-menu">
+              <HeaderLogoSection/>
               <NavSection ulPosition="" liStyle="" />
             </div>
           </div>
@@ -69,7 +71,7 @@ const HeaderSection8: React.FC<HeaderProps> = ({
                       <i className="fa-light fa-magnifying-glass"></i>
                     </button>
               </form>  */}
-                  <Link href="/login" className={btnStyle}>
+                  <Link href="https://www.sanjayghodawatuniversity.ac.in/admission-enquiry.php" target="_blank" className={btnStyle}>
                      Admission Open
                   </Link>
                 </>
