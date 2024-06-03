@@ -10,8 +10,8 @@ function GrievanceCommittee() {
         <div className="row gx-0 tl-blog-details-row">
           <div className="col-lg-12">
             <div className="governing-body">
-              <h3 className="governing-body-title">Grievance Readressal Committee</h3>
-              <span>(As per Statute No 4.7)</span>
+              <h3 className="governing-body-title dark-mode-white-color">Grievance Readressal Committee</h3>
+              <span className="dark-mode-white-color">(As per Statute No 4.7)</span>
             </div>
 
             <Table striped bordered hover responsive className="governing-table">

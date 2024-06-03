@@ -5,8 +5,8 @@ const ContactAdmission = () => {
     <div className="tl-event-details-container pt-50 pb-50">
     <div className="container">
       <div className="row align-items-center justify-content-center">
-      <h2 className="universityobject-heading">Admission & Marketing Cell</h2>
-      <p className="text-center">For admissions, more information & queries about admissions , admission process and other admission related information contact -</p>
+      <h2 className="universityobject-heading dark-mode-white-color">Admission & Marketing Cell</h2>
+      <p className="text-center dark-mode-white-color">For admissions, more information & queries about admissions , admission process and other admission related information contact -</p>
         <div className="col-lg-5 mb-20">
             <ul className="tl-event-details-infos">
                 <li className="tl-event-details-info">

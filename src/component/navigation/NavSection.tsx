@@ -7,6 +7,9 @@ interface NavProps {
 const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
   return (
     <ul className={ulPosition}>
+         <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
+            <a href="/">Home</a>
+                  </li>
         <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
             <a role="button">
             About Us <i className="fa-regular fa-angle-down"></i>
@@ -254,7 +257,7 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
 
        {/*  <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
             <a role="button">Blog <i className="fa-regular fa-angle-down"></i></a>
-        </li>  */}
+        </li> 
 
         <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
             <a>Contact <i className="fa-regular fa-angle-down"></i></a>
@@ -263,7 +266,7 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
                         <NavLink href="/contact-2">Contact Us</NavLink>
                     </li>
                 </ul>   
-    </li> 
+    </li>  */}
     </ul>
   )
 }

@@ -10,8 +10,8 @@ function AcademicCouncil() {
         <div className="row gx-0 tl-blog-details-row">
           <div className="col-lg-12">
             <div className="governing-body">
-              <h3 className="governing-body-title">Academic Council</h3>
-              <span>(As per Statute 20.2)</span>
+              <h3 className="governing-body-title dark-mode-white-color">Academic Council</h3>
+              <span className="dark-mode-white-color">(As per Statute 20.2)</span>
             </div>
 
             <Table striped bordered hover responsive className="governing-table">

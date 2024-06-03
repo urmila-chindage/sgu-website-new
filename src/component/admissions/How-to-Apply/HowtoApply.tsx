@@ -6,7 +6,7 @@ const HowtoApply = () => {
         <div className="container">
             <div className="row tl-event-details-row g-0">
                 <div className="col-lg-12">
-                    <h2 className="universityobject-heading">How to Apply for Admissions</h2>
+                    <h2 className="universityobject-heading dark-mode-white-color">How to Apply for Admissions</h2>
                     <div className="tl-event-details-left">
                         <div className="tl-event-details-key-content tl-event-details-area">
                                <ul className="tl-event-details-key-content-list phd-container">
@@ -17,7 +17,7 @@ const HowtoApply = () => {
                                     <li><strong>OPTION 3</strong> : <a rel="noopener noreferrer" target="_blank" href="#"  className="tl-def-btn-2">Click here</a>  for Online Admission Enquiry</li>
                                    
                                 </ul>
-                                <p className="mt-10">**Note : for MBA in Pharmaceutical Management and MBA in Agri-Business Management course Rs. 500/- Registration Charges must be paid after successful submition registration form by using login creditials sent by e-mail or SMS.</p>
+                                <p className="mt-10 dark-mode-white-color">**Note : for MBA in Pharmaceutical Management and MBA in Agri-Business Management course Rs. 500/- Registration Charges must be paid after successful submition registration form by using login creditials sent by e-mail or SMS.</p>
                             </div>
                         </div>
 

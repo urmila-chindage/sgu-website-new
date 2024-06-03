@@ -26,7 +26,7 @@ const IntakeData = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                  <h3 className="accordion-table-title">Academic Year 2024-25</h3>
+                  <h3 className="accordion-table-title dark-mode-white-color">Academic Year 2024-25</h3>
                 <Table striped bordered responsive className="governing-table">
                     <thead>
                         <tr>
@@ -129,7 +129,7 @@ const IntakeData = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                  <h3 className="accordion-table-title">Academic Year 2020-21</h3>
+                  <h3 className="accordion-table-title dark-mode-white-color">Academic Year 2020-21</h3>
                 <Table striped bordered responsive className="governing-table">
                     <thead>
                         <tr>
@@ -174,7 +174,7 @@ const IntakeData = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                  <h3 className="accordion-table-title">Academic Year 2019-20</h3>
+                  <h3 className="accordion-table-title dark-mode-white-color">Academic Year 2019-20</h3>
                 <Table striped bordered responsive className="governing-table">
                     <thead>
                         <tr>

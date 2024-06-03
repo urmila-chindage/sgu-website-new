@@ -152,7 +152,7 @@ const bankatm = [
           <h2 className="tl-4-section-title">Facilities</h2>
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Laboratories</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Laboratories</p>
         <div className="row tl-7-classes-row">
        
           {laboratoriesData.map((labItem, index) => (
@@ -167,8 +167,8 @@ const bankatm = [
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Hostel</p>
-        <a href="#" className="tl-def-btn-2 mb-4" >(Click Here For Information) <i className="fa-regular fa-arrow-right"></i></a>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Hostel</p>
+        <a href="https://www.sanjayghodawatuniversity.ac.in/hostel.php" className="tl-def-btn-2 mb-4" target="_blank">(Click Here For Information) <i className="fa-regular fa-arrow-right"></i></a>
         <div className="row tl-7-classes-row">
        
           {hostel.map((hostelItem, index) => (
@@ -183,7 +183,7 @@ const bankatm = [
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Cafeteria</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Cafeteria</p>
          <div className="row tl-7-classes-row">
        
           {cafeteria.map((cafeteriaItem, index) => (
@@ -198,7 +198,7 @@ const bankatm = [
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Sports</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Sports</p>
          <div className="row tl-7-classes-row">
        
           {sports.map((sportsItem, index) => (
@@ -213,7 +213,7 @@ const bankatm = [
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Transportation</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Transportation</p>
          <div className="row tl-7-classes-row">
        
           {transportation.map((transportationItem, index) => (
@@ -228,7 +228,7 @@ const bankatm = [
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Gymnasium</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Gymnasium</p>
          <div className="row tl-7-classes-row">
        
           {gymnasium.map((gymnasiumItem, index) => (
@@ -243,7 +243,7 @@ const bankatm = [
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Super Market</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Super Market</p>
          <div className="row tl-7-classes-row">
        
           {supermarket.map((supermarketItem, index) => (
@@ -258,7 +258,7 @@ const bankatm = [
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Staff Quarters</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Staff Quarters</p>
          <div className="row tl-7-classes-row">
        
           {staffquarters.map((staffquarterstItem, index) => (
@@ -273,7 +273,7 @@ const bankatm = [
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Bank / ATM</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Bank / ATM</p>
          <div className="row tl-7-classes-row">
        
           {bankatm.map((bankatmItem, index) => (

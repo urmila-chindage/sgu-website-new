@@ -20,7 +20,7 @@ const OfficersOfUniversity = () => {
              </div>
 
             <div className="tl-1-course-txt">
-              <span className="tl-1-course-author">
+              <span className="tl-1-course-author dark-mode-white-color">
               Dr. Vivek M. Kayande
               </span>
               <h4 className="tl-1-course-title">
@@ -43,7 +43,7 @@ const OfficersOfUniversity = () => {
              </div>
 
             <div className="tl-1-course-txt">
-              <span className="tl-1-course-author">
+              <span className="tl-1-course-author dark-mode-white-color">
               Dr. N.K Patil
               </span>
               <h4 className="tl-1-course-title">
@@ -66,7 +66,7 @@ const OfficersOfUniversity = () => {
              </div>
 
             <div className="tl-1-course-txt">
-              <span className="tl-1-course-author">
+              <span className="tl-1-course-author dark-mode-white-color">
               Mr. P. A. Desai
               </span>
               <h4 className="tl-1-course-title">

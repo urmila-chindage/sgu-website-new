@@ -6,11 +6,11 @@ const EligibilityCriteria = () => {
         <div className="container">
             <div className="row tl-event-details-row g-0">
                 <div className="col-lg-12">
-                    <h2 className="universityobject-heading">Eligibility Criteria for UG & PG Programmes</h2>
+                    <h2 className="universityobject-heading dark-mode-white-color">Eligibility Criteria for UG & PG Programmes</h2>
                     <div className="tl-event-details-left">
                         <div className="tl-event-details-key-content tl-event-details-area">
                                <ul className="tl-event-details-key-content-list phd-container">
-                                    <li><a rel="noopener noreferrer" target="_blank" href="/assets/docs/eligibility-criteria/Eligibility criteria for admission of various Programs 2024.pdf">Click here for Eligibility Criteria for Admission of various programmes <i className="fa-regular fa-arrow-right-long"></i></a></li>
+                                    <li><a rel="noopener noreferrer" className="dark-mode-white-color" target="_blank" href="/assets/docs/eligibility-criteria/Eligibility criteria for admission of various Programs 2024.pdf">Click here for Eligibility Criteria for Admission of various programmes <i className="fa-regular fa-arrow-right-long"></i></a></li>
                                 </ul>
                             </div>
                         </div>

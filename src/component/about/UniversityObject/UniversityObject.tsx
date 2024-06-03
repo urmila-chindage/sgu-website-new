@@ -6,11 +6,11 @@ const UniversityObject = () => {
         <div className="container">
             <div className="row tl-event-details-row g-0">
                 <div className="col-lg-12">
-                    <h2 className="universityobject-heading">University Aspects & Objects</h2>
+                    <h2 className="universityobject-heading dark-mode-white-color">University Aspects & Objects</h2>
                     <div className="tl-event-details-left">
                         <div className="tl-event-details-key-content tl-event-details-area">
                             <h3 className="tl-event-details-area-title">University Aspects</h3>
-                            <p>The goal of Sanjay Ghodawat University is to empowering students globally. The university will help you develop as a unique individual-to be educated as a whole person, intellectually, emotionally, socially, ethically, and spiritually.<br/>
+                            <p className="dark-mode-white-color">The goal of Sanjay Ghodawat University is to empowering students globally. The university will help you develop as a unique individual-to be educated as a whole person, intellectually, emotionally, socially, ethically, and spiritually.<br/>
 
                             Your development and learning as an individual occur, in part, when you engage in relationships with others and in activities that optimally challenge you. Engage your fellow students, faculty, staff, other facilities of interests and form relationships that both challenge and support your growth. Your journey of individual development does not occur in isolation; it takes place within dynamic learning practices such as</p>
 

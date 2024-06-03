@@ -6,7 +6,7 @@ const ReservationPolicy = () => {
         <div className="container">
             <div className="row tl-event-details-row g-0">
                 <div className="col-lg-12">
-                    <h2 className="universityobject-heading">Reservation Policy</h2>
+                    <h2 className="universityobject-heading dark-mode-white-color">Reservation Policy</h2>
                     <div className="tl-event-details-left">
                         <div className="tl-event-details-key-content tl-event-details-area">
                                <ul className="tl-event-details-key-content-list phd-container">

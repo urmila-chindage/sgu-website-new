@@ -13,7 +13,7 @@ const CorevaluesPage = () => {
   return (
     <Layout5>
         <BreadcrumbSection title='About Us' style=''/>
-        <Corevalues/>
+        <Corevalues sectionStyle="tl-13-categories pt-60 pb-120" pageStyle='tl-13'/>
         
        {/* <PricingSection/>
         <CtaSection4 style='tl-8-cta-inner'/> */}

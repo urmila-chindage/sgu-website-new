@@ -19,7 +19,7 @@ const AboutTrust = () => {
                         <div className="tl-8-features">
                             <div className="tl-8-feature">
                                
-                                <p className="tl-8-feature-descr"><h4>Sou. Sushila Danchand Ghodawat Charitable Trust</h4><br/>
+                                <p className="tl-8-feature-descr dark-mode-white-color"><h4 className="dark-mode-white-color">Sou. Sushila Danchand Ghodawat Charitable Trust</h4><br/>
 
 Sanjay Ghodawat University is dedicated to Smt. Sushila Danchand Ghodawat the mother of Shri. Sanjay D. Ghodawat. This Institutes comes under the umbrella of Smt. Sushila Danchand Ghodawat Trust built in the memory of Smt. Sushila Danchand Ghodawat. She was highly intelligent as well as considerate. Her desire to start an educational institution was brought into reality by Shri. Sanjay D. Ghodawat</p>
                             </div>
@@ -35,7 +35,7 @@ Sanjay Ghodawat University is dedicated to Smt. Sushila Danchand Ghodawat the mo
             </div>
 
             <div className="row">
-            <div className="col-xl-12 col-lg-12">
+            <div className="col-xl-12 col-lg-12 dark-mode-white-color">
                         <h4>Sou. Sushila Danchand Ghodawat Charitable Trust is running following organizations</h4>
                         <p>Sanjay Ghodawat University Kolhapur</p>
                         <p>Sanjay Ghodawat Group of Institutions (Faculty of Engineering), Atigre</p>

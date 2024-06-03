@@ -6,10 +6,10 @@ const DocumentRequired = () => {
         <div className="container">
             <div className="row tl-event-details-row g-0">
                 <div className="col-lg-12">
-                    <h2 className="universityobject-heading">Documents Required for Admissions 2023-24</h2>
+                    <h2 className="universityobject-heading dark-mode-white-color">Documents Required for Admissions 2023-24</h2>
                     <div className="tl-event-details-left">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                            <h4>For First Year B. Tech / Direct Second Year B. Tech /First Year & Direct Second Year B. Pharmacy Admissions</h4>
+                            <h4 className="dark-mode-white-color">For First Year B. Tech / Direct Second Year B. Tech /First Year & Direct Second Year B. Pharmacy Admissions</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
                                     <li>CET / JEE/ State Entrance Test Score Card (F. Y. B. Tech / B. Pharmacy)</li>
                                     <li>SSC Marksheet</li>
@@ -23,9 +23,9 @@ const DocumentRequired = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="tl-event-details-left mt-30">
+                        <div className="tl-event-details-left mt-10">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                            <h4>For First Year M. Tech / MBA / M. Sc / M.C.A. Admissions</h4>
+                            <h4 className="dark-mode-white-color">For First Year M. Tech / MBA / M. Sc / M.C.A. Admissions</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
                                     <li>GATE / CET / ATMA / CAT / SGUEE</li>
                                     <li>SSC Marksheet</li>
@@ -41,9 +41,9 @@ const DocumentRequired = () => {
                             </div>
                         </div>
 
-                        <div className="tl-event-details-left mt-30">
+                        <div className="tl-event-details-left mt-10">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                            <h4>For First Year BBA / B. Com / BA / B.C.A / D. Pharmacy/B.Sc/B.Sc Food Science and Technology/ B.M.L.T. Admissions</h4>
+                            <h4 className="dark-mode-white-color">For First Year BBA / B. Com / BA / B.C.A / D. Pharmacy/B.Sc/B.Sc Food Science and Technology/ B.M.L.T. Admissions</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
                                     <li>SSC Marksheet</li>
                                     <li>HSC Marksheet</li>
@@ -58,9 +58,9 @@ const DocumentRequired = () => {
                             </div>
                         </div>
 
-                        <div className="tl-event-details-left mt-30">
+                        <div className="tl-event-details-left mt-10">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                            <h4>For First Year B.Design</h4>
+                            <h4 className="dark-mode-white-color">For First Year B.Design</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
                                     <li>SGUEED /Uceed / Pera Cet</li>
                                     <li>SSC Marksheet</li>

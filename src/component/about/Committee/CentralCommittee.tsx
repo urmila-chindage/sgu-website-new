@@ -11,7 +11,7 @@ function CentralCommittee() {
         <div className="row gx-0 tl-blog-details-row">
           <div className="col-lg-12">
             <div className="governing-body">
-              <h3 className="governing-body-title">Committee - Central Purchase</h3>
+              <h3 className="governing-body-title dark-mode-white-color">Committee - Central Purchase</h3>
             </div>
 
             <Table striped bordered hover responsive className="governing-table">
@@ -153,7 +153,7 @@ function CentralCommittee() {
               
 
 	          </tbody>
-            <p style={{marginTop:"15px"}}>Constitution date: 07/08/2017</p>
+            <p style={{marginTop:"15px"}} className="dark-mode-white-color">Constitution date: 07/08/2017</p>
             </Table>
           </div>
         </div>

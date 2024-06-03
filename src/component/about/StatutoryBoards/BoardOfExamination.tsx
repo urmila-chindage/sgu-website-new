@@ -10,8 +10,8 @@ function BoardOfExamination() {
         <div className="row gx-0 tl-blog-details-row">
           <div className="col-lg-12">
             <div className="governing-body">
-              <h3 className="governing-body-title">Board of Examination</h3>
-              <span>(As per statute 3.9)</span>
+              <h3 className="governing-body-title dark-mode-white-color">Board of Examination</h3>
+              <span className="dark-mode-white-color">(As per statute 3.9)</span>
             </div>
 
             <Table striped bordered hover responsive className="governing-table">

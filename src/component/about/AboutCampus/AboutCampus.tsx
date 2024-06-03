@@ -97,10 +97,10 @@ const AboutCampus:React.FC<AboutProps> = ({padding,margin}) => {
                           
                             <h2 className="tl-7-section-title">About Campus</h2>
                             <ul className="tl-section-ul">
-                                <li className="tl-7-about-timing"><i className="fa-regular fa-star"></i>Classification of Land - Category -RURAL</li>
-                                <li className="tl-7-about-timing"><i className="fa-regular fa-star"></i>Letter Issued by - Gram Vikas Adhikari - A/P. Atigre Taluka - Hatkanangale Sarpanch A/P. Atigre Taluka - Hatkanangale</li>
-                                <li className="tl-7-about-timing"><i className="fa-regular fa-star"></i>Land Use Certificate Issued by - Tahsildar - Taluka : Hatkanangale</li>
-                                <li className="tl-7-about-timing"><i className="fa-regular fa-star"></i>Details of Building Plan Approved by- Gram Vikas Adhikari - A/P. Atigre, Taluka - Hatkanangale, Sarpanch A/P. Atigre Taluka - Hatkanangale</li>
+                                <li className="tl-7-about-timing dark-mode-white-color"><i className="fa-regular fa-star"></i>Classification of Land - Category -RURAL</li>
+                                <li className="tl-7-about-timing dark-mode-white-color"><i className="fa-regular fa-star"></i>Letter Issued by - Gram Vikas Adhikari - A/P. Atigre Taluka - Hatkanangale Sarpanch A/P. Atigre Taluka - Hatkanangale</li>
+                                <li className="tl-7-about-timing dark-mode-white-color"><i className="fa-regular fa-star"></i>Land Use Certificate Issued by - Tahsildar - Taluka : Hatkanangale</li>
+                                <li className="tl-7-about-timing dark-mode-white-color"><i className="fa-regular fa-star"></i>Details of Building Plan Approved by- Gram Vikas Adhikari - A/P. Atigre, Taluka - Hatkanangale, Sarpanch A/P. Atigre Taluka - Hatkanangale</li>
                             </ul>
                             
                         </div>

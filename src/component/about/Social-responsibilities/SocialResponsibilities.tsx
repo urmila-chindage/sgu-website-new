@@ -6,12 +6,12 @@ const SocialResponsibilities = () => {
         <div className="container">
             <div className="row tl-event-details-row g-0">
                 <div className="col-lg-12">
-                    <h2 className="universityobject-heading">Social Responsibilities</h2>
+                    <h2 className="universityobject-heading dark-mode-white-color">Social Responsibilities</h2>
                     <div className="tl-event-details-left">
                         <img src="assets/images/social-responsibilities/SocialResp.jpg" alt="Social Responsibilities" className="social-image"/>
                         <div className="tl-event-details-key-content tl-event-details-area">
                            
-                            <p>Mr. Sanjay Ghodawat, as a responsible citizen, strongly believes in reciprocation to the society. In 1996, he founded a charitable Trust in the name of his mother 'Sou. Sushila Danchand Ghodawat Charitable Trust'.
+                            <p className="dark-mode-white-color">Mr. Sanjay Ghodawat, as a responsible citizen, strongly believes in reciprocation to the society. In 1996, he founded a charitable Trust in the name of his mother 'Sou. Sushila Danchand Ghodawat Charitable Trust'.
 
                             Besides he has contributed to a number of social initiatives including building for blind school in Miraj, operation hall at Siddhivinayak Hospital, Miraj, plastic surgery camps sponsored by Ichalkaranji Rotary Club at Ichalkaranji, Where over 500 surgeries are done every year and setting-up of an eye hospital amongst others.
 
@@ -19,7 +19,7 @@ const SocialResponsibilities = () => {
 
                             Mr. Ghodawat also started a Junior Girls College in 2007, educating over 1700 girls and is now planning to start a Dental and Nursing College, Diploma courses and Pharmacy college.</p>
 
-                                <h4>Contribution of SGU to social initiatives</h4>
+                                <h4 className="dark-mode-white-color">Contribution of SGU to social initiatives</h4>
                                 <ul className="tl-event-details-key-content-list">
                                     <li>Ghodawat Foundation and Sanjay Ghodawat University commenced giving the financial help and provided free accomodation, free food and daily needs to flood affected people of Hatkanangale and Shirol Taluka</li>
                                     <li>Ghodawat Foundation commenced giving the donation of Rs. 5 lakh to help family of Shahid Rajendra Tupare</li>

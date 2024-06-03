@@ -6,23 +6,23 @@ const AdmissionBankDetails = () => {
         <div className="container">
             <div className="row tl-event-details-row g-0">
                 <div className="col-lg-12">
-                    <h2 className="universityobject-heading">Admission Fee Bank Details</h2>
+                    <h2 className="universityobject-heading dark-mode-white-color">Admission Fee Bank Details</h2>
                     <div className="tl-event-details-left">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                            <span>Dear Students,</span><br/><br/>
-                            <p>Kindly pay Admission Fee by one of the following method</p>
-                            <p><strong>1. By Online Payment Gateway (Recommanded)</strong> -- <a rel="noopener noreferrer" target="_blank" className="tl-def-btn-2" href="/assets/docs/bank-details-docs/FeePaymentProcedure.pdf">Click Here for Instructions & Payment Procedure</a> <br/>
+                            <span className="dark-mode-white-color">Dear Students,</span><br/><br/>
+                            <p className="dark-mode-white-color">Kindly pay Admission Fee by one of the following method</p>
+                            <p className="dark-mode-white-color"><strong>1. By Online Payment Gateway (Recommanded)</strong> -- <a rel="noopener noreferrer" target="_blank" className="tl-def-btn-2" href="/assets/docs/bank-details-docs/FeePaymentProcedure.pdf">Click Here for Instructions & Payment Procedure</a> <br/>
                              (Note : Payment Gateway is benificial to keep track of your payment)
                                 <br/>OR</p>
-                            <p><strong>2. By RTGS / NEFT or Demand Draft (DD) to following Bank details</strong> -- <a rel="noopener noreferrer" target="_blank" className="tl-def-btn-2" href="/assets/docs/bank-details-docs/RTGSorNEFT_Payment_request.pdf">Click Here to download Payment Transfer Intimation Letter </a><br/>
+                            <p className="dark-mode-white-color"><strong>2. By RTGS / NEFT or Demand Draft (DD) to following Bank details</strong> -- <a rel="noopener noreferrer" target="_blank" className="tl-def-btn-2" href="/assets/docs/bank-details-docs/RTGSorNEFT_Payment_request.pdf">Click Here to download Payment Transfer Intimation Letter </a><br/>
                             (**Note : After completing transaction please fill the Payment Transfer Intimation Letter and e-mail the scanned copy to ravi.patil@sginstitute.in.)</p>
                                
                             </div>
                         </div>
-                        <div className="tl-event-details-left mt-20">
+                        <div className="tl-event-details-left mt-10">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                        <h4>College Fees and Bus Fees - For All Schools</h4>
-                            <p>Students who are taking admission for any school, kindly pay Admission/Bus Fee to -</p>
+                        <h4 className="dark-mode-white-color">College Fees and Bus Fees - For All Schools</h4>
+                            <p className="dark-mode-white-color">Students who are taking admission for any school, kindly pay Admission/Bus Fee to -</p>
                             <ul className="tl-event-details-key-content-list phd-container">
                                     <li><strong>Bank Name</strong> : YES BANK LTD.</li>
                                     <li><strong>Bank Address</strong> : Plot No 234, Station Road,Galli no 8,Jaysingpur ,Tal: Shirol, Dist: Kolhapur, Maharashtra, Pin Code: 416101</li>
@@ -37,10 +37,10 @@ const AdmissionBankDetails = () => {
                             </div>
                         </div>
 
-                        <div className="tl-event-details-left mt-20">
+                        <div className="tl-event-details-left mt-10">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                        <h4>Hostel Fees - For All Schools</h4>
-                            <p>Students who are taking admission for Hostel, kindly pay Hostel Fee Seperately to -</p>
+                        <h4 className="dark-mode-white-color">Hostel Fees - For All Schools</h4>
+                            <p className="dark-mode-white-color">Students who are taking admission for Hostel, kindly pay Hostel Fee Seperately to -</p>
                             <ul className="tl-event-details-key-content-list phd-container">
                                     <li><strong>Bank Name</strong> : State Bank of India.</li>
                                     <li><strong>Bank Address</strong> : Main Road, Gandhi Chowk, Jaysingpur.416 101</li>
@@ -55,9 +55,9 @@ const AdmissionBankDetails = () => {
                             </div>
                         </div>
 
-                        <div className="tl-event-details-left mt-20">
+                        <div className="tl-event-details-left mt-10">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                        <h4>For Queries</h4>
+                        <h4 className="dark-mode-white-color">For Queries</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
                                     <li><strong>Fee Section</strong> : 0230-2463725 Mob No. 9130098769</li>
                                     <li><strong>Fee Section</strong> : 0230-2463730 Mob No. 9552572003</li>

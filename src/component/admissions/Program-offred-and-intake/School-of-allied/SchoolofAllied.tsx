@@ -14,7 +14,7 @@ const SchoolofAllied = () => {
     <div className="schools-section pt-50 pb-50">
     <div className="container">
     <div className="row">
-    <h2 className="universityobject-heading">Programmes Offered Under School of Allied Health Sciences</h2>
+    <h2 className="universityobject-heading dark-mode-white-color">Programmes Offered Under School of Allied Health Sciences</h2>
     <MenuList dept="Schools" subMenu={NavLinks}/>
     <div data-spy="scroll" className="scrollspy-example z-depth-1 mt-4 p-3 mb-4 col-md-8 dept-content" data-target="#menu-navbar" data-offset="0">
    

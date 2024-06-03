@@ -10,8 +10,8 @@ function InternalCommittee() {
         <div className="row gx-0 tl-blog-details-row">
           <div className="col-lg-12">
             <div className="governing-body">
-              <h3 className="governing-body-title">Internal Complaint Committee</h3>
-              <span>Constituted as per Notification No.F.91-1/2013 (TFGS) of University Grants Commission regarding (Prevention, Prohibition, and redressal of sexual harassment of women employees and students in Higher Education Institutions) Regulations, 2015 and as per the Gazette of India Part III section 4 dated 2nd May 2016.</span>
+              <h3 className="governing-body-title dark-mode-white-color">Internal Complaint Committee</h3>
+              <span className="dark-mode-white-color">Constituted as per Notification No.F.91-1/2013 (TFGS) of University Grants Commission regarding (Prevention, Prohibition, and redressal of sexual harassment of women employees and students in Higher Education Institutions) Regulations, 2015 and as per the Gazette of India Part III section 4 dated 2nd May 2016.</span>
             </div>
 
             <Table striped bordered hover responsive className="governing-table">

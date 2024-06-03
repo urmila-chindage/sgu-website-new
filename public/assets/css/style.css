@@ -26476,6 +26476,12 @@ footer.tl-footer.tl-14-footer.tl-1-footer {
 .dark_mode .tl-header.tl-13-header.tl-14-header {
   background-color: #000 !important;
 }
+.dark_mode .dark-mode-white-color{
+  color:var(--white);
+}
+.darl_mode .darl-mode-icon-color{
+  color:var(--white);
+}
 /* Dark Mode CSS End */
 
 /* My CSS */

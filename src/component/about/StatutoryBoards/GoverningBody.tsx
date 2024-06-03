@@ -10,8 +10,8 @@ function GoverningBody() {
         <div className="row gx-0 tl-blog-details-row">
           <div className="col-lg-12">
             <div className="governing-body">
-              <h3 className="governing-body-title">Governing Body</h3>
-              <span>(As per Section 21(1) of Mah Act No XL of 2017)</span>
+              <h3 className="governing-body-title dark-mode-white-color">Governing Body</h3>
+              <span className="dark-mode-white-color">(As per Section 21(1) of Mah Act No XL of 2017)</span>
             </div>
 
             <Table striped bordered hover responsive className="governing-table">

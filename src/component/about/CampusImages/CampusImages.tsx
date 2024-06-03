@@ -143,7 +143,7 @@ const CampusImages = () => {
           <h2 className="tl-4-section-title">SGU Campus</h2>
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Campus @ SGU</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Campus @ SGU</p>
         <div className="row tl-7-classes-row">
        
           {campusData.map((classItem, index) => (
@@ -158,7 +158,7 @@ const CampusImages = () => {
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Classrooms</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Classrooms</p>
         <div className="row tl-7-classes-row">
        
           {classRooms.map((classItem, index) => (
@@ -173,7 +173,7 @@ const CampusImages = () => {
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Amphi Theater</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Amphi Theater</p>
         <div className="row tl-7-classes-row">
        
           {amphitheater.map((amphiItem, index) => (
@@ -188,7 +188,7 @@ const CampusImages = () => {
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Food Court</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Food Court</p>
         <div className="row tl-7-classes-row">
        
           {foodcourt.map((foodcourtItem, index) => (
@@ -203,7 +203,7 @@ const CampusImages = () => {
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Auditorium</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Auditorium</p>
         <div className="row tl-7-classes-row">
        
           {auditorium.map((auditoriumItem, index) => (
@@ -218,7 +218,7 @@ const CampusImages = () => {
           ))}
         </div>
 
-        <p className="tl-4-innovs-heading-txt">Conference Hall</p>
+        <p className="tl-4-innovs-heading-txt dark-mode-white-color">Conference Hall</p>
         <div className="row tl-7-classes-row">
        
           {conferencehall.map((conferenceItem, index) => (

@@ -10,8 +10,8 @@ function Sports() {
         <div className="row gx-0 tl-blog-details-row">
           <div className="col-lg-12">
             <div className="governing-body">
-              <h3 className="governing-body-title">University Board of Sports and Physical Culture</h3>
-              <span>(As per statute 3.20)</span>
+              <h3 className="governing-body-title dark-mode-white-color">University Board of Sports and Physical Culture</h3>
+              <span className="dark-mode-white-color">(As per statute 3.20)</span>
             </div>
 
             <Table striped bordered hover responsive className="governing-table">
