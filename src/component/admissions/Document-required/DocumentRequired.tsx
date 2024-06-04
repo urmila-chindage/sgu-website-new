@@ -23,7 +23,7 @@ const DocumentRequired = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="tl-event-details-left mt-10">
+                        <div className="tl-event-details-left mt-30">
                         <div className="tl-event-details-key-content tl-event-details-area">
                             <h4 className="dark-mode-white-color">For First Year M. Tech / MBA / M. Sc / M.C.A. Admissions</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
@@ -41,7 +41,7 @@ const DocumentRequired = () => {
                             </div>
                         </div>
 
-                        <div className="tl-event-details-left mt-10">
+                        <div className="tl-event-details-left mt-30">
                         <div className="tl-event-details-key-content tl-event-details-area">
                             <h4 className="dark-mode-white-color">For First Year BBA / B. Com / BA / B.C.A / D. Pharmacy/B.Sc/B.Sc Food Science and Technology/ B.M.L.T. Admissions</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
@@ -58,7 +58,7 @@ const DocumentRequired = () => {
                             </div>
                         </div>
 
-                        <div className="tl-event-details-left mt-10">
+                        <div className="tl-event-details-left mt-30">
                         <div className="tl-event-details-key-content tl-event-details-area">
                             <h4 className="dark-mode-white-color">For First Year B.Design</h4>
                                <ul className="tl-event-details-key-content-list phd-container">

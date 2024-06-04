@@ -168,7 +168,7 @@ const bankatm = [
         </div>
 
         <p className="tl-4-innovs-heading-txt dark-mode-white-color">Hostel</p>
-        <a href="https://www.sanjayghodawatuniversity.ac.in/hostel.php" className="tl-def-btn-2 mb-4" target="_blank">(Click Here For Information) <i className="fa-regular fa-arrow-right"></i></a>
+        <a href="https://www.sanjayghodawatuniversity.ac.in/hostel.php" target="_blank" className="tl-def-btn-2 mb-4" >(Click Here For Information) <i className="fa-regular fa-arrow-right"></i></a>
         <div className="row tl-7-classes-row">
        
           {hostel.map((hostelItem, index) => (

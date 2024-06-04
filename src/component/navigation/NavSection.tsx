@@ -6,10 +6,13 @@ interface NavProps {
 }
 const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
   return (
-    <ul className={ulPosition}>
-         <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
-            <a href="/">Home</a>
-                  </li>
+    <ul className={ulPosition} style={{display:'flex', justifyContent:'center'}}>
+        <li className={`tl-nav-item ${liStyle}`}> 
+        {/* <NavLink href="/">Home</NavLink> */}
+        <a href="/" role="button">
+            Home
+            </a>
+        </li>
         <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
             <a role="button">
             About Us <i className="fa-regular fa-angle-down"></i>
@@ -241,6 +244,21 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
                 <li>
                     <NavLink href="/aeronautical-dept-syllabus">Curriculum Structure and Syllabus</NavLink>
                 </li>
+                <li>
+                    <NavLink href="/academic-calendar">Academic Calendar</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/university-notes">University Notes</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/foreign-university">Foreign University Collaborations</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/industry-collaborations">Industry Collaborations</NavLink>
+                </li>
+                <li>
+                    <NavLink href="/sgu-library">University Library</NavLink>
+                </li>
             </ul>
         </li>
 
@@ -257,7 +275,7 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
 
        {/*  <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
             <a role="button">Blog <i className="fa-regular fa-angle-down"></i></a>
-        </li> 
+        </li>  */}
 
         <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
             <a>Contact <i className="fa-regular fa-angle-down"></i></a>
@@ -266,7 +284,7 @@ const NavSection:React.FC<NavProps> = ({ulPosition,liStyle}) => {
                         <NavLink href="/contact-2">Contact Us</NavLink>
                     </li>
                 </ul>   
-    </li>  */}
+    </li> 
     </ul>
   )
 }

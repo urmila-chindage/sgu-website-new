@@ -19,7 +19,7 @@ const AdmissionBankDetails = () => {
                                
                             </div>
                         </div>
-                        <div className="tl-event-details-left mt-10">
+                        <div className="tl-event-details-left mt-20">
                         <div className="tl-event-details-key-content tl-event-details-area">
                         <h4 className="dark-mode-white-color">College Fees and Bus Fees - For All Schools</h4>
                             <p className="dark-mode-white-color">Students who are taking admission for any school, kindly pay Admission/Bus Fee to -</p>
@@ -37,7 +37,7 @@ const AdmissionBankDetails = () => {
                             </div>
                         </div>
 
-                        <div className="tl-event-details-left mt-10">
+                        <div className="tl-event-details-left mt-20">
                         <div className="tl-event-details-key-content tl-event-details-area">
                         <h4 className="dark-mode-white-color">Hostel Fees - For All Schools</h4>
                             <p className="dark-mode-white-color">Students who are taking admission for Hostel, kindly pay Hostel Fee Seperately to -</p>
@@ -55,7 +55,7 @@ const AdmissionBankDetails = () => {
                             </div>
                         </div>
 
-                        <div className="tl-event-details-left mt-10">
+                        <div className="tl-event-details-left mt-20">
                         <div className="tl-event-details-key-content tl-event-details-area">
                         <h4 className="dark-mode-white-color">For Queries</h4>
                                <ul className="tl-event-details-key-content-list phd-container">

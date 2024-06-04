@@ -10,18 +10,13 @@ const Layout5:React.FC<LayoutProps> = ({children}) => {
   return (
     <div>
       <HeaderSection8  style='tl-10-header'
-        darkLogo="assets/images/logos/logo-banner-image.png" 
-        lightLogo="assets/images/logos/logo-banner-image.png"
+        darkLogo="assets/images/sgulogo-white.jpg" 
+        lightLogo="assets/images/sguu-logoo.png"
         headerStyle=''
         btnStyle='tl-def-btn'
         loginBtn={true}/>
       {children}
-      <FooterSection7 
-      logo="assets/images/logos/sgulogo.jpg"
-      style='tl-6-footer'
-      descStyle="tl-5-footer-descr"
-      socialStyle='tl-3-footer-socials tl-6-footer-socials'
-      />
+      <FooterSection7 style='' logo='assets/images/logos/sgulogo.jpg' descStyle='tl-footer-descr' socialStyle='tl-footer-socials'/>
     </div>
   )
 }

@@ -153,7 +153,7 @@ function CentralCommittee() {
               
 
 	          </tbody>
-            <p style={{marginTop:"15px"}} className="dark-mode-white-color">Constitution date: 07/08/2017</p>
+            <p style={{marginTop:"15px"}}>Constitution date: 07/08/2017</p>
             </Table>
           </div>
         </div>

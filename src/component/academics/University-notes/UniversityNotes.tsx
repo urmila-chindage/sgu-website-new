@@ -10,7 +10,7 @@ function UniversityNotes() {
         <div className="row gx-0 tl-blog-details-row">
           <div className="col-lg-12">
             <div className="governing-body">
-              <h3 className="governing-body-title">University Notes</h3>
+              <h3 className="governing-body-title dark-mode-white-color">University Notes</h3>
              
             </div>
 

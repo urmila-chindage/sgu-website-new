@@ -6,9 +6,32 @@ const AboutSection = () => {
       <div className="container">
         <div className="row gy-5 align-items-center">
           <div className="col-lg-6">
-            <div className="tl-10-about-img">
-              <img src="assets/images/about-us/aboutus-image1.jpg" alt="students" />
+            {/* <div className="tl-10-about-img">
+              <img src="assets/images/about-us/about-universityy.jpg" alt="university" />
 
+            </div> */}
+                       <div className="tl-10-about-img">
+              <img src="assets/images/about-us/about-universityy.jpg" alt="university" />
+
+              <span className="bottom-img">
+                <img src="assets/images/about-us/about-universityy2.jpg" alt="university" />
+              </span>
+
+              {/* <div className="tl-10-users">
+                <div className="tl-10-users-img">
+                  <img src="assets/images/tl-10/04.png" alt="user" />
+                  <img src="assets/images/tl-10/03.png" alt="user" />
+                  <img src="assets/images/tl-10/02.png" alt="user" />
+                  <span className="last-img">
+                    <img src="assets/images/tl-10/01.png" alt="user" />
+                    <span className="last-img-txt">2k+</span>
+                  </span>
+                </div>
+
+                <h6 className="tl-10-users-txt">
+                  More Than <br /> 2k+ Tutors
+                </h6>
+              </div> */}
             </div>
           </div>
 

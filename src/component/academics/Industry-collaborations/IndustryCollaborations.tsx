@@ -6,11 +6,11 @@ const IndustryCollaborations = () => {
         <div className="container">
             <div className="row tl-event-details-row g-0">
                 <div className="col-lg-12">
-                    <h2 className="universityobject-heading">Academic Partners & Industry Collaborations</h2>
+                    <h2 className="universityobject-heading dark-mode-white-color">Academic Partners & Industry Collaborations</h2>
                     <div className="tl-event-details-left">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                            <p>The Sanjay Ghodawat University has established MOUs and functional relations with many Institutions and Industries with agreement of supporting student exchange, exchange of scholarly ideas / expertise and research, the support of specific discipline interaction; the development of programs to include student exchange.</p>
-                            <h4>Competency Center Being Established For Conducting Practicals</h4>
+                            <p className="dark-mode-white-color">The Sanjay Ghodawat University has established MOUs and functional relations with many Institutions and Industries with agreement of supporting student exchange, exchange of scholarly ideas / expertise and research, the support of specific discipline interaction; the development of programs to include student exchange.</p>
+                            <h4 className="dark-mode-white-color">Competency Center Being Established For Conducting Practicals</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
                                     <li>Technology Center</li>
                                     <li>Advanced Learning Center</li>
@@ -24,7 +24,7 @@ const IndustryCollaborations = () => {
 
                         <div className="tl-event-details-left mt-30">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                            <h4>Collaborations with Professional Bodies</h4>
+                            <h4 className="dark-mode-white-color">Collaborations with Professional Bodies</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
                                     <li>American Concrete Institute (ACI)</li>
                                     <li>National Remote Sensing Centre (NRSC)</li>
@@ -40,7 +40,7 @@ const IndustryCollaborations = () => {
 
                         <div className="tl-event-details-left mt-30">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                            <h4>Collaborations with Premier Institutions</h4>
+                            <h4 className="dark-mode-white-color">Collaborations with Premier Institutions</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
                                     <li>Harvard Business School Publishing House</li>
                                     <li>CDAC</li>
@@ -59,7 +59,7 @@ const IndustryCollaborations = () => {
 
                         <div className="tl-event-details-left mt-30">
                         <div className="tl-event-details-key-content tl-event-details-area">
-                            <h4>Collaborations with Industry</h4>
+                            <h4 className="dark-mode-white-color">Collaborations with Industry</h4>
                                <ul className="tl-event-details-key-content-list phd-container">
                                     <li>Tata Technologies</li>
                                     <li>Infosys</li>
